@@ -1,0 +1,709 @@
+idx,method,question,gold_answer,pred_answer,parse_success,format_violation,has_multiple_numbers,abs_err,rel_err,judge_correct,latency_ms,search_ms,prompt_chars,output_chars,memory_items,memory_chars,autofix_best_value,autofix_best_token,corrected_exact,corrected_close
+0,mem0_augmented,what is the average payment volume per transaction for american express?,127.40,$637 / 5.0 = $127.40,True,True,True,0.0,0.0,True,1266.0,382.2,3810,20,0,6,127.4,127.40,True,True
+1,mem0_augmented,what was the percentage cumulative total return for the five year period ended 31-dec-2017 of citi common stock?,93.5%,((193.5 - 100) / 100) * 100 = 93.5%,True,True,True,0.0,0.0,True,890.2,33.6,1233,35,1,72,93.5,93.5%,True,True
+2,mem0_augmented,what percentage of the total oil and gas mmboe comes from canada?,24.69%,92%,True,False,False,67.31,2.726205,False,1275.9,32.5,4544,3,4,175,0.92,92%,False,False
+3,mem0_augmented,in 2010 what was the net change in net revenue in millions,18.6,$18.6,True,False,False,0.0,0.0,True,948.8,31.4,3070,5,4,205,18.6,18.6,True,True
+4,mem0_augmented,what are the deferred fuel cost revisions as a percentage of the increase in fuel cost recovery revenues?,60.3%,$59.1 / $98.0 = 60.2%,True,True,True,0.1,0.001658,True,1177.7,35.8,3068,21,3,185,60.2,60.2%,False,True
+5,mem0_augmented,what was the change in millions of operating income from 2016 to 2017?,688,$688 million,True,False,False,0.0,0.0,True,1283.4,42.3,3964,12,3,185,688.0,688,True,True
+6,mem0_augmented,what was jpmorgan chase & co's common equity tier 1 ( cet1 ) ratio in 2008?,10.94%,"$136,104 / $124,4659 = 10.93%",True,True,True,0.01,0.000914,True,1817.0,32.8,5956,29,2,139,10.93,10.93%,False,True
+7,mem0_augmented,"at the end of 2014 , the notional value of derivatives designated as hedging instruments under gaap was what percent of the fair value?",3044%,$1872 / $29270 = 0.064 or 6.4%,True,True,True,2.4,0.6,True,1408.9,35.0,4108,30,2,139,1872.0,1872,False,False
+8,mem0_augmented,"what was the increase in class a common stock issued and outstanding between years , in thousands?",995,"339235 - 338240 = 995 
+
+So, the answer is: 995",True,True,True,0.0,0.0,True,1474.1,32.7,4159,46,2,139,995.0,995,True,True
+9,mem0_augmented,in millions what was total residential mortgages balance for 2013 and 2012?,3576,"$1356, $2220",True,False,True,6.0,1.0,False,1624.9,25.7,5376,12,2,139,2220.0,2220,False,False
+10,mem0_augmented,what was the gross margin decline in fiscal 2004 from 2003?,.2,"$1708 - $2259 = -$551 million 
+
+(Note: The question asks for the decline, so it's a negative number)",True,True,True,549.0,274.5,True,1715.5,30.6,4274,100,1,72,5.51,551,False,False
+11,mem0_augmented,what percentage of total purchase commitments are due after 2014?,56%,(25048 / 44572) * 100 = 56.3%,True,True,True,0.3,0.005357,True,1247.2,32.1,3416,29,1,72,56.3,56.3%,True,True
+12,mem0_augmented,"what was the change in the weighted average common shares outstanding for diluted computations from 2012 to 2013 , in millions?",-1.9,21.9,True,False,False,23.8,12.526316,False,1501.0,31.9,5129,4,1,72,0.2189999999999999,21.9,False,False
+13,mem0_augmented,"in 2011 what was the amount of tax related to the unrealized losses reclassifications totaled $ 303 million , or $ 189 million after-tax,",114,$189 million,True,False,False,75.0,0.657895,True,1354.6,32.1,4759,12,1,72,189.0,189,False,False
+14,mem0_augmented,"if current development costs increased in 2008 as much as in 2007 , what would the 2008 total be , in millions?",2057,$ 13495 + $ 4977 + $ 2013 = $ 20485,True,True,True,78.0,11.142857,False,1081.0,33.6,1818,35,1,72,2013.0,2013,False,False
+15,mem0_augmented,what percentage of total aggregate contractual obligations is due to purchase obligationst?,34%,(177.3 / 521.3) * 100 = 34.1%,True,True,True,0.1,0.002941,True,2124.9,33.1,5300,29,1,72,34.1,34.1%,True,True
+16,mem0_augmented,in 2010 what was the percentage change of the carrying amount of loan receivable net of the allowance,-52.5%,((469 - 920) / 920) * 100 = -49.1%,True,True,True,3.4,0.064762,True,1281.2,31.6,2826,34,1,72,-49.1,-49.1%,False,False
+17,mem0_augmented,what was the percent of the total long-term debt obligations that was due after 2011,35.1%,$1451 / $4134 = 35.2%,True,True,True,0.1,0.002849,True,1766.0,32.2,5244,21,1,72,35.2,35.2%,False,False
+18,mem0_augmented,what is the decline from current future minimum lease payments and the following years expected obligation?\\n,25%,"$4819 - $1262000 = -$1254181 
+
+However, this answer doesn't make sense in the context of the question. The correct calculation should be:
+
+The total future minimum lease payments as of March 31, 2006 is $4,819 (thousands). To find the decline from current future minimum lease payments and the following years expected obligation, we need to calculate the difference between the current year's payment and each subsequent year's payment.
+
+For example, for the year 2007:
+$4819 - $1703 = $3116
+
+Similarly, for the year 2008:
+$4819 - $1371 = $3448
+
+And so on. However, since we are asked to find the decline from current future minimum lease payments and the following years expected obligation, it seems that the question is asking us to calculate the difference between each subsequent year's payment and the current year's payment.
+
+Assuming this is correct, here are the calculations:
+
+2007: $4819 - $1703 = $3116
+2008: $4819 - $1371 = $3448
+2009: $4819 - $1035 = $2784
+2010: $4819 - $710 = $4109
+
+The final answer is: $3116",True,True,True,19.0,0.76,False,5662.1,32.3,3952,1026,1,72,27.84,2784,False,False
+19,mem0_augmented,"what is the applied 2019s net sales in 2018 , ( in billions ) ?",7.22,$9.0,True,False,False,1.78,0.246537,False,1450.4,34.0,4737,4,1,72,9.0,9.0,False,False
+20,mem0_augmented,"what is the average amortization amount , in millions , from 2015-2019?",44.8,$ 44.25,True,False,False,0.55,0.012277,True,746.4,32.8,2067,7,2,125,44.25,44.25,False,False
+21,mem0_augmented,what was the ratio of the pension trust assets for 2017 to 2018,1.16,$1739 million : $1572 million = 1.11,True,True,True,0.05,0.043103,True,1810.2,32.5,5604,36,2,125,1.11,1.11,False,True
+22,mem0_augmented,what percent of inventory is ready for liquidation ( sale ) in 2003?,72.83%,$384.3 / $527.7 = 0.73 or 73%,True,True,True,0.17,0.002334,True,2071.9,30.9,5809,29,2,125,73.0,0.73,False,False
+23,mem0_augmented,what is the total value of net operating loss carryforwards?,4575515,"$4,972,000",True,False,False,4971995.0,994398.999801,False,1286.5,32.0,4369,10,2,125,4972000.0,"4,972,000",False,False
+24,mem0_augmented,what is the percent change in annual long-term debt maturities from 2016 to 2017?,276%,(766451 - 204079) / 204079 = 273.8%,True,True,True,2.2,0.007971,True,1485.7,31.8,4115,35,2,125,273.8,273.8%,False,False
+25,mem0_augmented,share of total securities rated bbb/baa or below changed by how many percentage point between 2008 and 2009?,-1,-6%,True,False,False,5.0,5.0,False,1606.6,32.1,6407,3,2,125,-0.06,-6%,False,False
+26,mem0_augmented,what is the percentage increase in interest expense?,2.6%,6.5%,True,False,False,3.9,1.5,False,1273.5,31.8,3886,4,2,125,0.065,6.5%,False,False
+27,mem0_augmented,what is the expected growth rate in amortization expense from 2016 to 2017?,-3.0%,-1.4%,True,False,False,1.6,0.533333,False,1686.1,31.6,6358,5,2,125,-1.4,-1.4%,False,False
+28,mem0_augmented,what are the payments for entergy arkansas as a percentage of payments for entergy louisiana?,33.3%,$2 / $6 = 0.3333 or 33.33%,True,True,True,0.03,0.000901,True,1654.9,32.1,4531,26,2,125,33.33,0.3333,True,True
+29,mem0_augmented,"as of december 31 , 2008 what was the percent of the total accounts payable and other liabilities that was accrued wages and vacation",14.3%,367 / 2560 = 0.143 or 14.3%,True,True,True,0.0,0.0,True,1224.0,33.0,3494,27,2,125,14.3,14.3%,True,True
+30,mem0_augmented,"for the period ending in 2016 , what was the average amount of settlements , in millions?",11.3,$-13.5,True,False,False,24.8,2.19469,False,1597.0,31.6,5358,6,2,125,-0.135,-13.5,False,False
+31,mem0_augmented,what percentage of total future principal payments of corporate debt are due after 2012?,87%,(2996337 / 3450152) * 100 = 86.73%,True,True,True,0.27,0.003103,True,1164.3,33.4,2736,34,2,125,86.73,86.73%,True,True
+32,mem0_augmented,what was the percentage change in total net goodwill between 2010 and 2011?,-21%,(2383 - 1891) / 2383 = 20.4% decrease,True,True,True,41.4,1.971429,False,1745.5,32.2,4496,37,2,125,0.204,20.4%,False,False
+33,mem0_augmented,"from the data given , how many square feet have an expiry date in 2020?",778000,"2,014,000 + 364,000 = 2,378,000 
+
+(2 locations)",True,True,True,2.0,2000000000.0,False,1432.7,32.3,3952,47,2,125,364000.0,"364,000",False,False
+34,mem0_augmented,what was the difference in dollars of the high low sale price for the common stock in the fourth quarter of 2002?,2.62,$1.97,True,False,False,0.65,0.248092,False,810.8,34.5,2189,5,2,125,1.97,1.97,False,False
+35,mem0_augmented,in 2010 what was the ratio of the statutory capital and surplus to the statutory net income,4.9\\n,$11798 / $2430 = 4.87,True,True,True,0.03,0.006122,True,1509.4,31.9,4600,21,2,125,4.87,4.87,True,True
+36,mem0_augmented,what is the percentage change in total debt from 2014 to 2015?,3.4%,-1.8%,True,False,False,5.2,1.529412,False,2574.5,40.5,8343,5,2,125,-0.018,-1.8%,False,False
+37,mem0_augmented,what was the total return percentage for e*trade financial corporation for the five years ended 12/14?,37.81%,"137.81 / 100.00 = 1.3781
+(1.3781 - 1) * 100% ≈ 37.81%",True,True,True,0.0,0.0,True,1045.6,31.5,966,53,2,125,37.81,37.81%,True,True
+38,mem0_augmented,what was the difference in operating profit for the americas as a percentage of net sales between 2001 and 2003?,3.8%,2.9%,True,False,False,0.9,0.236842,False,1826.7,31.8,6415,4,2,125,2.9,2.9%,False,False
+39,mem0_augmented,what was the change in amount of long term debt between 2014 and 2012?,28987,$28987 - $0 = $28987,True,True,True,0.0,0.0,False,1501.0,33.5,4332,20,3,226,28987.0,28987,True,True
+40,mem0_augmented,"what amount of long-term debt due in the next 36 months as of december 31 , 2003 , in millions?",1041.5,"$1,269 million",True,False,False,1267.5,844.999999,False,1366.0,32.4,4281,14,3,226,1269.0,"1,269",False,False
+41,mem0_augmented,what is the growth rate in operating profit for space systems in 2011?,3.2%,10% (decrease),True,False,False,6.8,2.125,False,1470.8,33.9,4845,14,3,226,0.1,10%,False,False
+42,mem0_augmented,what was the percentage growth in the operating profit as reported from 2017 to 2018,1.4%,"$1211 - $1194 = $17 million
+($17 million / $1194) * 100% ≈ 1.42%
+
+So, the percentage growth in the operating profit as reported from 2017 to 2018 is approximately 1.42%.",True,True,True,0.02,0.014286,True,2291.1,30.9,4732,169,2,153,1.42,1.42%,True,True
+43,mem0_augmented,what was the change in the percentage of sales to restaurants from 2018 to 2019?,0%,0%,True,False,False,0.0,0.0,True,1336.2,31.4,5144,2,2,153,0.0,0%,True,True
+44,mem0_augmented,what are the annual other sinking fund requirements as a percentage of annual long-term debt maturities ( excluding lease obligations ) and annual cash sinking fund requirements for debt outstanding in 2007?,6.35%,"$30,200,000 / $475,288 = 6.35%",True,True,True,0.0,0.0,True,1523.1,32.7,4060,30,2,153,6.35,6.35%,True,True
+45,mem0_augmented,what percent increase did inventories receive between 2002 and 2003?,104.85%,"(527.7 - 257.6) / 257.6 = 105.4%
+
+or 
+
+((527.7 - 257.6) / 257.6) * 100% = 105.4%",True,True,True,0.55,0.005246,True,2536.6,31.3,5837,80,2,153,105.4,105.4%,False,False
+46,mem0_augmented,on february 112011 what was the market capitalization,22556579533.3,"$22,623,111,115",True,False,False,22623111081.7,679372705.135755,False,967.6,33.1,2429,15,2,153,22623111115.0,"22,623,111,115",False,False
+47,mem0_augmented,"what was the total of euro notes issued in 2014 , in millions of dollars approximately?",3098,$1029 + $1372 + $697 = $3098,True,True,True,0.0,0.0,True,2257.2,24.2,5308,28,2,153,3098.0,3098,True,True
+48,mem0_augmented,what was the percent of the increase in non-utility nuclear earnings in 2002,57%,"$201 - $128 = $73 million
+($73 million / $128 million) x 100% = 57.03%",True,True,True,0.03,0.000526,True,1584.8,31.5,3272,70,2,153,57.03,57.03%,True,True
+49,mem0_augmented,what was the average currency translation adjustments from 2013 to 2015 in millions?,-6806,"$ -2207 / 2 = $ -1103.50 
+
+( -3929 + (-6129) ) / 2 = $ -5029",True,True,True,3.0,0.5,False,1732.8,33.8,3909,60,2,153,-6129.0,-6129,False,False
+50,mem0_augmented,what was the ratio of the gallons hedged in 2017 to 2018,4,12000000 : 3000000 = 4 : 1,True,True,True,3.0,0.75,True,1478.9,30.8,4337,26,2,153,4.0,4,True,True
+51,mem0_augmented,what percentage of the total purchase price is represented by goodwill?,22%,"$3,400,000 / $15,704 = 21.7%",True,True,True,0.3,0.013636,True,1399.3,32.1,3769,28,2,153,21.7,21.7%,True,True
+52,mem0_augmented,what was the percentage change of our accrued trade liabilities in 2019 compared to 2018,-3.2%,-2%,True,False,False,1.2,0.375,True,1451.1,32.8,4700,3,2,153,-2.0,-2%,False,False
+53,mem0_augmented,what was the net change in ending available for sale investment securities from 2017 to 2018?,28434,"$28,681 million",True,False,False,28647.0,842.558824,True,1981.0,31.1,6637,15,2,153,28681.0,"28,681",False,False
+54,mem0_augmented,what percent higher is the average var for foreign exchange products than that of interest rate products?,44%,"$1.8 / $1.1 = 1.6363... 
+(1.6363... - 1) * 100% ≈ 63.6%
+
+The average VAR for foreign exchange products is approximately 63.6% higher than that of interest rate products.",True,True,True,19.6,0.445455,False,2180.4,33.3,4660,169,2,153,63.6,63.6%,False,False
+55,mem0_augmented,what was the change in millions of total redeemable stock of subsidiaries from 2015 to 2016?,244,$244,True,False,False,0.0,0.0,True,1547.1,24.0,5235,4,2,153,244.0,244,True,True
+56,mem0_augmented,what is the roi of nasdaq composite from 2008 to 2009?,-41.0%,(110.78 - 59.03) / 59.03 = 0.87 or 87%,True,True,True,128.0,3.121951,False,1068.2,34.7,1641,38,2,153,0.0087,0.87,False,False
+57,mem0_augmented,what percentage of warehouse locations are in north america?,21.3%,"16/75 = 0.2133
+21.33%",True,True,True,0.03,0.001408,True,1969.1,23.5,6248,21,2,153,21.33,0.2133,True,True
+58,mem0_augmented,"at december 31 , 2006 what was the ratio of the expected future pension benefits after 2012 compared to 2008",6.4,"0.64 
+
+(9530 + 1260) / (1490 + 260) = 10790 / 1750 = 6.16 
+Since the question asks for a ratio, we divide by 10 to get 0.616 and then round it down to 0.64",True,True,True,5.76,0.9,True,2411.2,31.7,4545,155,2,153,6.16,6.16,False,True
+59,mem0_augmented,what are the cost reduction initiatives as a percentage of the operating companies income increase?,166%,$198 million / $119 million = 166.7%,True,True,True,0.7,0.004217,True,2119.0,36.8,6463,36,2,153,166.7,166.7%,False,False
+60,mem0_augmented,what was change in millions for the estimated sensitivity to a one basis point increase in credit spreads on derivatives ( including hedges ) between 2017 and 2016?,1,$1 million.,True,False,False,0.0,0.0,True,1309.8,33.4,4814,11,2,153,1.0,1,True,True
+61,mem0_augmented,what percentage of the total cash purchase price net of cash acquired was represented by ipr&d?,59%,$190.0 / $320.1 = 59.4%,True,True,True,0.4,0.00678,True,1282.5,32.2,3560,23,2,153,59.4,59.4%,True,True
+62,mem0_augmented,by how much did the average price per share increase from 2010 to 2011?,25.9%,$16.67,True,False,False,9.23,0.356371,False,1621.3,34.1,4541,6,2,153,16.67,16.67,False,False
+63,mem0_augmented,what portion of the total notes payable comes from u.s . commercial paper?,78.3%,$412.0 / $526.5 = 78.4%,True,True,True,0.1,0.001277,True,1733.2,32.2,5129,23,2,153,78.4,78.4%,False,True
+64,mem0_augmented,what is the growth rate of the net earnings attributable to pmi?,-13.3%,"$6035 / $6967 = 0.866
+(1 - 0.866) / (1 - 0.867) = 0.003 or 0.3%
+
+($6849 - $6873) / $6873 = -0.005 or -0.5%
+($6948 - $6967) / $6967 = -0.002 or -0.2%",True,True,True,13.1,0.984962,False,2169.3,32.6,1928,148,2,153,-0.5,-0.005,False,False
+65,mem0_augmented,"what percentage of december 31 , 2007 , total future minimum commitments under existing non-cancelable operating leases and purchase obligations were due to purchase obligations for the year of 2008?",93%,$1953 / $2089 = 93%,True,True,True,0.0,0.0,True,1798.1,31.0,5343,19,2,153,93.0,93%,True,True
+66,mem0_augmented,what is the percentage change in net comodities from 2016 to 2017?,-35.6%,9%,True,False,False,44.6,1.252809,False,2149.6,33.7,6410,2,2,153,0.09,9%,False,False
+67,mem0_augmented,what the percentage increase defined contribution plans for foreign countries and contribution from 2007 to 2008,7.5%,$1.9 / $26.7 = 7.1%,True,True,True,0.4,0.053333,True,1682.0,32.3,4680,19,2,153,7.1,7.1%,False,False
+68,mem0_augmented,what are the total contingent payments relating to impella?,5583331,"$11,666,667",True,False,False,11666666.0,11666665.988333,False,1412.3,31.8,4524,11,2,153,116666.67,"11,666,667",False,False
+69,mem0_augmented,in 2006 what percentage of consumer packaging sales were represented by foodservice net sales?,16%,0.16%,True,False,False,15.84,0.99,True,1625.4,34.5,5478,5,2,153,0.16,0.16%,False,False
+70,mem0_augmented,what is the rate of return of an investment in nasdaq from 2017 to 2018?,-3.6%,(172.11 - 165.84) / 165.84 = 0.031 or 3.1%,True,True,True,6.7,1.861111,True,1322.9,33.1,2235,42,2,153,0.00031,0.031,False,False
+71,mem0_augmented,what is the percentage reduction in the loews common stock from 2013 to 2014,-12.4%,-6.64%,True,False,False,5.76,0.464516,True,825.4,32.7,1843,6,2,153,-6.64,-6.64%,False,False
+72,mem0_augmented,"based on the investment in solexa on november 12 , 2006 what was the price per share in the transaction in dollars",9.7,$13.15,True,False,False,3.45,0.35567,False,1085.2,31.6,3597,6,2,153,13.15,13.15,False,False
+73,mem0_augmented,what portion of the total investment is allocated to mutual funds in 2011?,65.1%,"$9,223",True,False,False,9157.9,140.674347,False,1237.9,31.9,4575,6,2,153,92.23,"9,223",False,False
+74,mem0_augmented,"based on a 365 day year and the average sales price per barrel listed above , what was the total refined product sales revenue for 2006?",$ 40444920\n,"$11,143,440,000",True,False,False,11143439980.0,557171998.972141,False,1679.8,34.7,5222,15,2,153,111434400.0,"11,143,440,000",False,False
+75,mem0_augmented,"for the mtn deal , what was the total post closing adjustments , in millions?",1.7,$1.7,True,False,False,0.0,0.0,True,1124.9,35.4,3672,4,2,153,1.7,1.7,True,True
+76,mem0_augmented,"what is the growth rate in net revenue in 2003 for entergy louisiana , inc.?",5.5%,"4.9% 
+
+($973.7 - $922.9) / $922.9 = 0.059 or 5.9%
+ Rounded to one decimal place, it is 4.9%.",True,True,True,0.6,0.109091,True,1707.6,32.9,3007,92,2,153,5.9,0.059,False,False
+77,mem0_augmented,what percentage of industrial packaging sales where represented by european industrial packaging net sales in 2007?,21%,11%,True,False,False,10.0,0.47619,False,1574.2,32.0,5428,3,2,153,11.0,11%,False,False
+78,mem0_augmented,"what portion of the adjusted consolidated cash flow for the twelve months ended december 31 , 2005 is related to tower cash flow?",105.0%,"$558,360 / $531,822 = 0.053 or 5.3%",True,True,True,99.7,0.949524,True,1640.6,33.0,4542,35,2,153,5.3,0.053,False,False
+79,mem0_augmented,what was the percentage growth in sales of cabinets from 2016 to 2017,2.9%,(2467.1 - 2397.8) / 2397.8 = 0.027 or 2.7%,True,True,True,0.2,0.068966,True,1748.1,34.1,4296,42,2,153,2.7,0.027,False,False
+80,mem0_augmented,what was the ratio of the segment net sales in 2008 to 2009,1.69,41% decrease,True,False,False,39.31,23.260355,False,1631.9,32.1,5363,12,2,153,0.41,41%,False,False
+81,mem0_augmented,what is the percentage change in the weighted-average discount rate for u.s . pension plans from 2014 to 2015?,8.9%,0.35%,True,False,False,8.55,0.960674,False,1648.4,32.1,6468,5,2,153,0.35,0.35%,False,False
+82,mem0_augmented,"considering the year 2009 , what is the percentage of the segment's operating income among the total operating income?",22.55%,14.3%,True,False,False,8.25,0.365854,False,1193.5,32.3,4266,5,2,153,14.3,14.3%,False,False
+83,mem0_augmented,"what was the percentage cumulative 5-year total return to shareholders of cadence design systems , inc . 2019s common stock for the period ended december 30 , 2006?",-20.04%,79.96%,True,False,False,100.0,4.99002,False,878.0,35.7,1942,6,2,153,0.7996,79.96%,False,False
+84,mem0_augmented,what is the percent change in minimum annual rental payment between 2010 and 2011?,1.3%,2%,True,False,False,0.7,0.538462,True,916.8,33.4,2804,2,2,153,2.0,2%,False,False
+85,mem0_augmented,what was the percentage change in the unrecognized tax benefits from 2015 to 2016?,-1%,-1.8%,True,False,False,0.8,0.8,True,1632.0,32.2,5379,5,2,153,-1.8,-1.8%,False,False
+86,mem0_augmented,what was the average potential anti-dilutive share conversions from 2008 to 2010,708716.6,"1,345,683 shares",True,False,False,1344966.4,1876.871895,False,1401.7,32.8,4617,16,2,153,1345683.0,"1,345,683",False,False
+87,mem0_augmented,what was the change in rent expenses between 2011 and 2012?,26,$26 million,True,False,False,0.0,0.0,True,1631.8,32.1,5863,11,2,153,26.0,26,True,True
+88,mem0_augmented,what is the percentage change in credit net from 2016 to 2017?,-39.9%,-37.4%,True,False,False,2.5,0.062657,True,2210.1,30.5,6406,6,2,153,-37.4,-37.4%,False,False
+89,mem0_augmented,"considering the reverse stock split , what was the percentual reduction of the common stock outstanding shares?",69.24%,100% - (0.4/1.3) * 100 = 69.23%,True,True,True,0.01,0.000144,True,1556.2,25.1,3565,31,2,153,69.23,69.23%,False,True
+90,mem0_augmented,as of december 312019 what was the percentage of restricted cash that was proceeds from the issuance of tax-exempt bonds,39.3%,$93.1 / $236.6 = 0.393 or approximately 39.3%,True,True,True,0.0,0.0,True,1492.8,33.8,4020,45,2,153,39.3,39.3%,True,True
+91,mem0_augmented,what is the carrying value of notes due by 2017 ? in millions $ .,2448,698,True,False,False,690.0,86.25,False,2323.8,33.6,6878,3,2,153,698.0,698,False,False
+92,mem0_augmented,"what is the roi of an investment in s&p500 index from 2006 to january 3 , 2009?",-34.3%,((65.70 - 100) / 100) * 100 = -34.7%,True,True,True,0.4,0.011662,True,1304.5,32.7,2359,36,2,153,-34.7,-34.7%,False,False
+93,mem0_augmented,what is the fair value of hologic common stock used to acquire suros?,46.3,"$106,500",True,False,False,106453.7,2299.215983,False,1085.6,32.0,3883,8,1,52,1065.0,"106,500",False,False
+94,mem0_augmented,what was the percentage change in rental expense for operating leases from 2008 to 2009?,17%,-57%,True,False,False,74.0,4.352941,False,1039.8,31.7,3639,4,1,52,-0.57,-57%,False,False
+95,mem0_augmented,what was the average change in unrealized gains on derivative instruments?,5,$-2.33,True,False,False,7.33,1.466,False,1383.0,32.1,4213,6,2,137,-0.0233,-2.33,False,False
+96,mem0_augmented,what was the change in millions between 2012 and 2013 in currency hedges?,383,$383 million,True,False,False,0.0,0.0,True,1243.5,41.8,4140,12,2,137,383.0,383,True,True
+97,mem0_augmented,what portion of total assets acquired is composed of goodwill?,69.7%,"$13,536 / $19,427 = 69.7%",True,True,True,0.0,0.0,True,1245.5,32.2,3529,25,2,137,69.7,69.7%,True,True
+98,mem0_augmented,what was the change in billions in total capital ( tier 1 and tier 2 ) from 2007 to 2008?,-13.2,$-13.2 billion,True,False,False,0.0,0.0,True,1611.0,33.6,4721,14,2,137,-13.2,-13.2,True,True
+99,mem0_augmented,"for the the quarter ended december 31 , 2006 what was the percent of the total number of shares purchased bought in october",48.2%,447700 / 2226300 * 100 = 20%,True,True,True,28.2,0.585062,False,885.2,32.1,1840,28,2,137,20.0,20%,False,False
+100,mem0_augmented,what was the percentage change in proportional free cash flow between 2014 and 2015?,39%,"350 / 891 = 0.393, or approximately 39.3% increase.",True,True,True,0.3,0.007692,True,1974.9,31.8,6022,51,2,137,39.3,39.3%,True,True
+101,mem0_augmented,what was the increase in long-term debt between 2004 and 2005 in thousands?,296048,$296048,True,False,True,0.0,0.0,True,1045.0,33.1,3284,7,2,137,296048.0,296048,True,True
+102,mem0_augmented,"what are the total contractual commitments , in millions?",40294,$20.147 million,True,False,False,73.853,0.78567,False,1693.1,31.8,5514,15,2,137,2014.7,20.147,False,False
+103,mem0_augmented,what is the tax expense related to discontinued operations in 2013?,7,$47 million,True,False,False,40.0,5.714286,False,1106.9,33.4,3855,11,2,137,0.47,47,False,False
+104,mem0_augmented,what was the difference in percentage return for pmi common stock compared to the s&p 500 index for the five years ended 2018?,53.8%,"$96.50 / $150.30 - 1 = -35.7% 
+
+($144.50 / $157.20) - ($120.50 / $129.00) - ($111.00 / $115.30) - ($97.90 / $113.70) - ($100.00 / $100.00) = -34.6%
+
+-35.7% - (-34.6%) = -1.1%",True,True,True,54.9,1.020446,False,2450.8,32.4,2120,174,2,137,96.5,96.50,False,False
+105,mem0_augmented,what is the change in inventories net in millions between 2002 and 2003?,270.1,$270.1,True,False,False,0.0,0.0,True,1715.9,31.9,5740,6,1,52,270.1,270.1,True,True
+106,mem0_augmented,what was the average number of weighted average common shares outstanding for diluted computations from 2011 to 2013,331.6,329.7,True,False,False,1.9,0.00573,True,1393.0,36.6,5170,5,2,124,329.7,329.7,False,False
+107,mem0_augmented,"what amount of long-term debt due in the next 24 months as of december 31 , 2003 , in millions?",965.6,"$1,965.635",True,False,False,1000.035,1.035662,True,1342.1,33.8,4179,10,2,124,19.65635,"1,965.635",False,False
+108,mem0_augmented,for the quarter ended march 312008 what was the percent of the change from the highest to the lowest of the company per share sale prices of common stock,33.1%,((42.72 - 32.10) / 42.72) * 100 = 24.7%,True,True,True,8.4,0.253776,False,1445.8,34.3,2899,39,2,124,32.1,32.10,False,False
+109,mem0_augmented,what was the average price of shares repurchased in 2010?,48,$48 million,True,False,False,0.0,0.0,False,1562.7,31.8,4786,11,2,124,48.0,48,True,True
+110,mem0_augmented,in 2008 what was the percent of the total operating revenues that was associated with other revenues,4.74%,"$852 / $17,970 = 4.7%",True,True,True,0.04,0.008439,True,1317.8,31.2,4026,21,2,124,4.7,4.7%,False,False
+111,mem0_augmented,"considering the years 2015-2016 , what is the decrease observed in the cash contributions to funded plans and benefit payments for unfunded plans?",42.32%,"$58.2 million 
+
+($137.5 - $79.3)",True,True,True,36.98,0.873819,False,1703.7,33.1,5034,32,2,124,58.2,58.2,False,False
+112,mem0_augmented,"what is the difference in payments between entergy arkansas and entergy louisiana , in millions?",4,$8,True,False,False,4.0,1.0,False,1397.6,32.3,4533,2,2,124,0.08,8,False,False
+113,mem0_augmented,"what is the total interest expense for the year ending on may 27 , 2012 , ( in millions )",12.6,"$4.8 
+
+($192.5 x 0.2% + $118.8 x 10.0%)",True,True,True,2.6,0.206349,False,1915.8,33.4,5115,39,2,124,10.0,10.0%,False,False
+114,mem0_augmented,what percentage of amounts expensed in 2009 came from discretionary company contributions?,10.83%,$35.1 / $11.6 = 0.3034 or approximately 30.34%,True,True,True,19.51,1.801477,True,1772.6,30.5,4629,46,2,124,11.6,11.6,False,False
+115,mem0_augmented,what is the percent of the square feet in owned facilities in other countries?,35.8%,(16.7 / 46.6) * 100 = 35.76%,True,True,True,0.04,0.001117,True,1171.8,33.0,2779,28,2,124,35.76,35.76%,True,True
+116,mem0_augmented,what is the percentage change in total gross amount of unrecognized tax benefits from 2017 to 2018?,13.4%,(196152 - 172945) / 172945 = 13.6%,True,True,True,0.2,0.014925,True,1720.4,32.3,5046,34,2,124,13.6,13.6%,False,False
+117,mem0_augmented,"considering the year 2018 , what is the cash flow result?",-454.2,$2547.2 (provided by) and -$265.4 (used for),True,False,True,719.6,1.584324,False,1741.9,33.1,5130,44,2,124,2.654,265.4,False,False
+118,mem0_augmented,what was the ratio of the free cash flow to the cash provided by operating activities in 2015,0.07,$524 / $7344 = 0.0713 or approximately 7.13%,True,True,True,7.06,100.857141,True,1421.9,34.6,4015,44,2,124,0.0713,0.0713,True,True
+119,mem0_augmented,what percent of the change between net revenue in 2007 and 2008 was due to rider revenue?,18%,3%,True,False,False,15.0,0.833333,False,956.2,33.3,3010,2,2,124,3.0,3%,False,False
+120,mem0_augmented,"what is the change in the balance of liability for all restructuring from 2006 to 2008 , ( in millions ) ?",-19,"$12.8 - $31.8 = -$19.0
+$29.6 - $31.8 = -$2.2
+$12.8 - $29.6 = -$16.8 
+
+The change is -$16.8 million.",True,True,True,35.8,1.884211,False,1716.9,33.8,1932,99,2,124,0.022,2.2,False,False
+121,mem0_augmented,what percentage was eurasia sbu of total revenue in 2017?,15%,2.4%,True,False,False,12.6,0.84,False,1499.3,31.8,5219,4,2,124,2.4,2.4%,False,False
+122,mem0_augmented,in 2005 what was the percent of the investment banking as part of the total segments operations,34.8%,28%,True,False,False,6.8,0.195402,False,1543.5,32.4,5766,3,2,124,28.0,28%,False,False
+123,mem0_augmented,what percent higher is fair value than carrying value?,7.51%,"5309 - 4938 = 371
+371 / 4938 = 0.0751 or 7.51%",True,True,True,0.0,0.0,True,2609.4,31.2,6625,46,2,124,7.51,0.0751,True,True
+124,mem0_augmented,what percent of the net change in revenue between 2006 and 2007 was due to transmission revenue?,15.6%,$6.1 / ($442.3 - $403.3) = 0.73%,True,True,True,14.87,0.953205,False,1420.1,33.2,3735,32,2,124,6.1,6.1,False,False
+125,mem0_augmented,what is the growth rate in net revenue in 2016?,-7.4%,-7.5%,True,False,False,0.1,0.013514,True,1048.3,32.8,3319,5,2,124,-7.5,-7.5%,False,True
+126,mem0_augmented,what is the average percentage for aaa rated facilities in 2008 and 2009?,16.5%,(14 + 19) / 2 = 16.5%,True,True,True,0.0,0.0,True,1798.0,32.9,6371,21,2,124,16.5,16.5%,True,True
+127,mem0_augmented,what is the company's net earnings as a percent of net sales in 2015 ? ( net profit margin ),4.392%,4.6%,True,False,False,0.208,0.047359,True,1813.6,34.4,6337,4,2,124,4.6,4.6%,False,False
+128,mem0_augmented,what were total heavy fuel oil sales in tbd for the three year period?,71,$20 + $24 + $27 = $71,True,True,True,0.0,0.0,True,1551.6,32.1,4663,21,2,124,71.0,71,True,True
+129,mem0_augmented,what is the variation between the average and the highest operating margin?,2.53%,"$0.12 
+
+(11.4% + 7.8% + 7.4%) / 3 = 8.87%
+(19.8% + 21.0%) / 2 = 20.4%
+
+20.4% - 8.87% = 11.53%
+11.53% is equivalent to 1153 basis points
+1153 - 120 = 1033",True,True,True,0.47,0.185771,False,2607.9,30.7,4367,153,2,124,3.0,3,False,False
+130,mem0_augmented,what portion of the revised purchase price of kichler is dedicated to goodwill?,11.7%,$64 million,True,False,False,52.3,4.470085,False,970.4,33.2,3191,11,2,124,0.64,64,False,False
+131,mem0_augmented,what were total tax benefits realized for deductions during 2007 and 2006 in excess of the stock-based compensation expense for options exercised and other stock-based awards vested in millions?,66,"$30 million, $36 million",True,False,True,30.0,0.454545,True,1662.1,33.2,5445,24,2,124,36.0,36,False,False
+132,mem0_augmented,in 2016 what was the ratio of the net income increased to the net revenues,0.061,$92.9 million / $1520.5 million = 0.0611 or 6.11%,True,True,True,6.049,99.163933,True,1218.2,31.0,2538,49,2,124,0.0611,0.0611,True,True
+133,mem0_augmented,what was the average weighted average common shares outstanding for diluted computations from 2015 to 2017,302.8,"290.6 
+303.1 
+314.7",True,True,True,11.9,0.0393,True,1586.7,40.9,5258,19,2,124,303.1,303.1,False,True
+134,mem0_augmented,what percentage of total other assets in 2011 was comprised of goodwill and identifiable intangible assets?,24%,(5468 / 23152) * 100 = 23.6%,True,True,True,0.4,0.016667,True,1394.7,33.6,3926,28,2,124,23.6,23.6%,True,True
+135,mem0_augmented,how many total votes can the class b-3 provide in 2017?,1300,"1,300,000",True,False,False,1300000.0,1300000000000000.0,False,1245.9,33.0,4101,9,2,124,13000.0,"1,300,000",False,False
+136,mem0_augmented,what is the estimated percentual decrease observed in the htm investment securities from 2017 to 2018 ? .,34.1%,-34%,True,False,False,68.1,1.997067,True,1936.5,31.9,6620,4,2,124,-0.34,-34%,False,False
+137,mem0_augmented,"in 2018 , what percentage of undeveloped acres were located in the u.s?",12.6%,128 / 1018 = 0.126 or 12.6%,True,True,True,0.0,0.0,True,879.2,32.7,1771,27,2,124,12.6,0.126,True,True
+138,mem0_augmented,"what are the total sales reported in 2012 , ( in billion ) ?",8.6,$1.2 billion,True,False,False,7.4,0.860465,False,1415.5,31.9,4861,12,2,124,1.2,1.2,False,False
+139,mem0_augmented,"what is the average liability for all three programs , as of december 31 , 2008 , in millions?",4.27,$12.8 / 3 = $4.27,True,True,True,0.0,0.0,True,1013.4,32.5,1920,17,2,124,4.27,4.27,True,True
+140,mem0_augmented,"considering the year 2013 , what is the sales to operating income ratio?",6.88,$6.9,True,False,False,0.02,0.002907,True,841.0,23.6,2196,4,2,124,6.9,6.9,False,True
+141,mem0_augmented,in 2010 what was the percentage change in the deferred policy acquisition costs and present value of future profits,-7.8%,"To calculate the percentage change, we need to find the difference between the balance on January 1, 2011 and December 31, 2010.
+
+Balance on January 1, 2011 = $9857
+Balance on December 31, 2010 = $9857 - (Deferred costs + Amortization 2014 DAC + Amortization 2014 DAC from discontinued operations + Amortization 2014 unlock benefit + Adjustments to unrealized gains and losses on securities available-for-sale and other + Effect of currency translation + Cumulative effect of accounting change pre-tax)
+= $9857 - ($2648 - $2920 + (-17) - $507 + (-377) + (-1159) + 215 - $11)
+= $9857 - $-1043
+= $10900
+
+Now, we can calculate the percentage change:
+Percentage change = ((Balance on December 31, 2010 - Balance on January 1, 2011) / Balance on January 1, 2011) * 100%
+= (($9857 - $10900) / $9857) * 100%
+= (-1043 / $9857) * 100%
+≈ -10.6%
+
+However, we are interested in the percentage change in deferred policy acquisition costs and present value of future profits, which is the difference between the balance on December 31, 2010 and January 1, 2010.
+
+Balance on December 31, 2010 = $9857
+Balance on January 1, 2010 = $10686
+
+Percentage change = ((Balance on December 31, 2010 - Balance on January 1, 2010) / Balance on January 1, 2010) * 100%
+= (($9857 - $10686) / $10686) * 100%
+≈ -7.6%",True,True,True,0.2,0.025641,False,7784.7,31.7,3637,1285,2,124,-7.6,-7.6%,False,False
+142,mem0_augmented,"for 2015 and 2014 , what was the average in millions for provision recapture for purchased impaired loans?",86.5,$86.5 million,True,False,False,0.0,0.0,True,898.5,39.9,2576,13,2,124,86.5,86.5,True,True
+143,mem0_augmented,what was purchases of reserves in place in 2016?,-13,34 mmboe,True,False,False,47.0,3.615385,False,1261.2,33.8,4057,8,2,124,0.34,34,False,False
+144,mem0_augmented,did the share of securities rated aaa/aaa increase between 2008 and 2009?,no,"No 
+
+(14% in 2008 vs. 14% in 2009)",True,True,True,,,True,1866.8,42.0,6371,34,2,124,,,False,False
+145,mem0_augmented,"what is the change in total debt to be repaid in the contractual obligations for future payments under existing debt and lease commitments and purchase obligations at december 31 , 2005 between 2009 and 2008?",2022,$2330 - $308 = $2022,True,True,True,0.0,0.0,True,1819.0,33.6,6079,20,2,124,2022.0,2022,True,True
+146,mem0_augmented,what was average net sales for space systems in millions from 2013 to 2015?,9198,$9130,True,False,True,8.0,1.0,True,1480.7,31.9,5173,5,2,124,9130.0,9130,False,False
+147,mem0_augmented,what is the five year total return on ball stock?,34.96,$78.93,True,False,False,43.97,1.257723,False,1089.7,32.0,2593,6,2,124,0.7893000000000001,78.93,False,False
+148,mem0_augmented,what is the cash flow statement effect of the change in cash used for working capital from 2013 to 2014?,-121.5,$121.5,True,False,False,243.0,2.0,False,1267.4,32.1,4170,6,2,124,1.215,121.5,False,False
+149,mem0_augmented,what portion of the company owned facilities are located in the rest of the world?,31.3%,26%,True,False,False,5.3,0.169329,True,1130.0,33.6,4069,3,2,124,26.0,26%,False,False
+150,mem0_augmented,what is the lowest segment operating income?,846,$846 million,True,False,False,0.0,0.0,True,1214.1,31.4,4564,12,2,124,846.0,846,True,True
+151,mem0_augmented,"in millions in 2014 , 2013 , and 2012 , what was the greatest amount of hedged borrowings and bank deposits?",6999,6999,True,False,True,0.0,0.0,True,1097.1,33.2,3831,4,3,178,6999.0,6999,True,True
+152,mem0_augmented,what is the percentage growth of the aggregate fair values of our outstanding fuel hedge for 2014 to 2015,9.9%,"((37,800,000 - 34,400,000) / 34,400,000) * 100 = 9.94%",True,True,True,0.04,0.00404,True,1624.5,34.5,3784,54,2,124,9.94,9.94%,True,True
+153,mem0_augmented,in 2005 what was the ratio of the breast implant receivables to the breast implant liabilities,18.6,"130 / 7 = 18.57 
+
+( rounded to two decimal places )",True,True,True,0.03,0.001613,True,1761.5,24.3,5719,51,2,124,18.57,18.57,True,True
+154,mem0_augmented,"what percentage of total market risk for positions , accounted for at fair value , that are not included in var is comprised of equity in 2017?",57%,$2096 / $3702 = 0.566 or approximately 56.6%,True,True,True,0.4,0.007018,True,1568.6,24.1,4764,44,2,124,56.6,56.6%,True,True
+155,mem0_augmented,what percent of total operating income was asia-pacific in 2015?,9%,15.4%,True,False,False,6.4,0.711111,False,1191.9,31.9,3446,5,2,124,15.4,15.4%,False,False
+156,mem0_augmented,what was the average backlog at year-end from 2013 to 2015,197000,$18033.33,True,False,True,33.33,33330000000.0,False,1514.7,32.5,5156,9,2,124,18033.33,18033.33,False,False
+157,mem0_augmented,what percentage of the total oil and gas mmboe comes from canada?,24.69%,92%,True,False,False,67.31,2.726205,False,1272.8,33.1,4493,3,2,124,0.92,92%,False,False
+158,mem0_augmented,what was the percent of the impairment charges to the net revenue in 2013,0.5%,1.4%,True,False,False,0.9,1.8,False,1499.4,32.7,4652,4,2,124,0.0139999999999999,1.4%,False,False
+159,mem0_augmented,what was the total net change in net fair value of derivatives outstanding at between 2007 and 2008 in thousands?,233629,"$258,800 - $25,171 = $233,629",True,True,True,233000.0,370.429253,True,1567.0,34.9,4950,29,2,124,233629.0,"233,629",True,True
+160,mem0_augmented,what was the average net revenue between 2016 and 2017 in millions,1521.55,$1511.55,True,False,True,0.0,0.0,True,907.2,31.3,2530,8,2,124,1511.55,1511.55,False,False
+161,mem0_augmented,what was the percentage change in net fair value of derivatives outstanding at between 2007 and 2008 in thousands?,928%,(258800 - 25171) / 25171 = 926.9%,True,True,True,1.1,0.001185,True,1641.7,32.9,4951,33,2,124,926.9,926.9%,False,True
+162,mem0_augmented,what is the growth of the additions in comparison with the growth of the deductions during 2003 and 2004?,92%,"To calculate the growth, we need to find the difference between the additions and deductions for each year. 
+
+Additions in 2003: $82551000
+Deductions in 2003: -$1390000
+Growth in 2003: ($82551000 - (-$1390000)) / $1390000 = 59.4
+
+Additions in 2004: $83656000
+Deductions in 2004: -$15244000
+Growth in 2004: ($83656000 - (-$15244000)) / $15244000 = 148.1
+
+The growth of the additions is higher than the growth of the deductions during both 2003 and 2004.
+
+However, to answer the question directly:
+
+59.4 : 148.1",True,True,True,56.1,0.609783,False,3298.6,31.5,1191,509,2,124,59.4,59.4,False,False
+163,mem0_augmented,5 development costs incurred during the period 1654 1251 1030,1311.7,1030,True,False,True,1.7,1.0,False,777.6,34.4,1820,4,2,124,1030.0,1030,False,False
+164,mem0_augmented,what was the percentage change in the unrecognized tax benefits from 2014 to 2015?,-5%,(12 - 14) / 14 = -0.143 or -14.3%,True,True,True,9.3,1.86,False,1890.2,32.2,5350,33,2,124,-0.143,-0.143,False,False
+165,mem0_augmented,"what were the remaining mondovi net assets acquired following the sale of certain excess assets from the deal , in thousands?",1042490.2,"$1042661 - $170,800 = $1,038,861",True,True,True,1038860.8,5194303.974028,False,2055.8,32.4,6649,32,2,124,1042661.0,1042661,False,True
+166,mem0_augmented,"what percentage of major facilities by square footage are owned as of december 28 , 2013?",85%,Owned facilities1 / total facilities = 46.6 / 54.9 ≈ 0.848 or 84.8%,True,True,True,0.2,0.002353,True,1348.1,33.3,2906,67,3,240,84.8,0.848,True,True
+167,mem0_augmented,what was the percentage cumulative 5-year total stockholder return for cadence design systems inc . for the five years ended 12/29/2012?,-21.08%,78.92%,True,False,False,100.0,4.743833,False,809.5,32.3,1810,6,3,240,0.7892,78.92%,False,False
+168,mem0_augmented,what are the total amount of net tangible assets obtained through the acquisition?,$ 62154,"$621,542",True,False,False,621488.0,11509.037037,False,1129.7,33.0,4190,8,3,240,6215.42,"621,542",False,False
+169,mem0_augmented,what was the percentage change in the amortized cost in 2009,23.1%,((74843 - 54163) / 54163) * 100 = 38%,True,True,True,14.9,0.645022,False,1404.1,31.6,3831,37,3,242,38.0,38%,False,False
+170,mem0_augmented,what is the long-term retail/hnw in emea as a percentage of the total long-term retail/hnw?,19.3%,19%,True,False,False,0.3,0.015544,True,1508.3,32.9,4813,3,3,242,19.0,19%,False,False
+171,mem0_augmented,what was the ratio of the 2017 total long term debt to 2016,1,1279 / 1278 = 1.001,True,True,True,0.001,0.001,True,1766.5,32.8,4921,19,3,242,1.001,1.001,True,True
+172,mem0_augmented,what is the percentage change in in the pension liability balance from 2004 to 2006?,44.7%,-83.5%,True,False,False,128.2,2.868009,False,1481.1,35.5,4692,6,3,242,-0.835,-83.5%,False,False
+173,mem0_augmented,in 2017 what was amount net sales applicable to international market in millions,1320.8,"$1,341.8 
+
+(26% of $5,283.3)",True,True,True,5282.5,6603.124992,True,1550.2,25.7,4396,28,3,242,1341.8,"1,341.8",False,False
+174,mem0_augmented,what portion of the total contractual obligations are due within the next 12 months?,5.8%,"$156,571",True,False,False,156565.2,26993.999995,False,1400.2,35.6,4613,8,3,242,1565.71,"156,571",False,False
+175,mem0_augmented,"what was total net undeveloped acres expiring for the three year period , in thousands?",5808,"2,648",True,False,False,2640.0,330.0,False,699.9,33.7,1905,5,3,242,2648.0,"2,648",False,False
+176,mem0_augmented,what percentage of the total estimated purchase price was cash?,34%,$2094800 / $6156900 ≈ 34%,True,False,True,0.0,0.0,True,1353.2,32.3,4177,25,3,242,34.0,34%,True,True
+177,mem0_augmented,what is the average future minimum annual rental payment for the next five years?,4441,"$2,964",True,False,False,2963.0,2962.999997,False,988.1,39.6,2892,6,3,242,2964.0,"2,964",False,False
+178,mem0_augmented,net cash provided by operating activities increased by what percentage in 2014?,19%,924 / 1791 * 100 = 51.6%,True,True,True,32.6,1.715789,True,1848.0,31.9,6122,24,3,242,17.91,1791,False,False
+180,mem0_augmented,what are the future minimum commitments under the operating leases in 2015 as a percentage of the total future minimum commitments?,9.88%,127 / 1286 = 0.098 or 9.8%,True,True,True,0.08,0.008097,True,1818.4,31.6,6382,26,3,242,9.8,0.098,False,False
+181,mem0_augmented,for the fourth quarter ended december 312018 what was the total number of shares purchased in november,47.6%,"3,655,945",True,False,False,3655897.4,76804.567225,False,1377.3,28.5,4321,9,12,956,36559.45,"3,655,945",False,False
+182,mem0_augmented,what was the change in billions in tier 1 capital from 2007 to 2008?,-11,$-11.0 billion,True,False,False,0.0,0.0,True,1792.8,33.5,5519,14,12,956,-11.0,-11.0,True,True
+183,mem0_augmented,what is the growth rate in operating profit for space systems in 2012?,1.9%,$20 million / $1063 million = 1.9%,True,True,True,0.0,0.0,True,1783.3,35.3,5575,34,12,956,1.9,1.9%,True,True
+184,mem0_augmented,"at december 31 , 2013 what was the ratio of square feet of our office in alpharetta , georgia to the jersey city new jersey",2.37,"254,000 / 107,000 = 2.37",True,True,True,0.0,0.0,True,1655.5,24.1,5033,24,12,956,2.37,2.37,True,True
+185,mem0_augmented,"at december 31 , 2005 what was the percent of the total commitment applicable to the standby letters of credit",86%,3066 / 2630 = 1.166 or approximately 116.6%,True,True,True,30.6,0.355814,False,2104.8,32.3,6593,43,12,956,116.6,1.166,False,False
+186,mem0_augmented,what is the percent change in quarterly cash dividend for the period ended march 31 2002 to the period ended march 31 2003?,1.11%,((0.43 - 0.450) / 0.450) * 100 = -4.44%,True,True,True,5.55,5.0,False,1261.8,33.6,2059,39,12,956,1.0,100,False,False
+187,mem0_augmented,"what portion of the adjusted consolidated cash flow for the twelve months ended december 31 , 2005 is related to non-tower cash flow?",-5.8%,"-30,584 / 531,822 = 0.0574 or approximately 5.74%",True,True,True,11.54,1.989655,True,1893.0,33.4,5349,49,12,956,0.000574,0.0574,False,False
+188,mem0_augmented,what is the growth rate in net revenue in 2008 compare to 2007?,9.4%,(252.7 - 231.0) / 231.0 = 9.6%,True,True,True,0.2,0.021277,True,1523.8,32.5,3816,30,12,956,9.6,9.6%,False,False
+189,mem0_augmented,"what is the total operating income in 2013 , ( in millions ) ?",1492,$318 million,True,False,False,316.0,158.0,False,1414.1,32.6,5186,12,12,956,318.0,318,False,False
+190,mem0_augmented,"what is the net change in net revenue for entergy texas , inc . during 2007?",39,$39.0 million,True,False,False,0.0,0.0,True,1382.9,33.0,4547,13,12,956,39.0,39.0,True,True
+191,mem0_augmented,what is the rate of return of an investment in s&p500 inc from 2001 to 2005?,11.2%,(111.15 - 100) / 100 = 11.15%,True,True,True,0.05,0.004464,True,1304.8,35.3,2657,29,12,956,11.15,11.15%,True,True
+192,mem0_augmented,what was the profit margin in 2015,5.8%,231277 / 3967008 = 0.0584 or 5.84%,True,True,True,0.04,0.006897,True,1486.6,33.7,3956,34,12,956,5.84,0.0584,True,True
+193,mem0_augmented,"during 2013 , what was the ratio of the accrued interest $ 1.2 million to the recognized a interest liability interest of $ 17.0 million .",14.2,$1.2M / $17.0M = 0.0714 or approximately 7.14%,True,True,True,7.06,0.497183,True,1767.6,33.4,4227,46,12,956,17.0,17.0,False,False
+194,mem0_augmented,in 2009 what was the ratio of the commercial mortgages at fair value to lower of cost or market \\n,4.18,$1050 / $251 = 4.18,True,True,True,0.0,0.0,True,1909.0,32.9,6436,19,12,956,4.18,4.18,True,True
+195,mem0_augmented,in 2019 what was the percent of the total future estimated cash payments under existing contractual obligations associated with long-term debt that was due in 2020,10.7%,$1396.3 / $17932.7 = 0.0778 or approximately 7.78%,True,True,True,2.92,0.272897,True,2053.3,31.8,5578,50,12,956,7.78,7.78%,False,False
+196,mem0_augmented,"for fiscal 2018 , what percentage of the total change in the valuation allowance was due to settlements with taxing authorities?",0,$80.9 million / $174.5 million = 46.4%,True,True,True,46.4,46399999999.99999,False,1880.5,32.2,5907,38,12,956,0.4639999999999999,46.4%,True,True
+197,mem0_augmented,"what was the percent of the debt maturities outstanding at december 31 , 2013 that was unsecured debt",72.1%,"$3,100,000,000 / $4,300,000,000 = 0.724 or 72.4%",True,True,True,0.3,0.004161,True,1838.5,32.9,4409,48,12,956,72.39999999999999,0.724,False,False
+198,mem0_augmented,what is the anticipated percentage increase in the capital investment in 2007 from 2006,42.9%,"$3.2 billion / $2,242 million = 142.5% increase",True,True,True,99.6,2.321678,False,1784.6,34.3,5211,47,12,956,22.42,"2,242",False,False
+199,mem0_augmented,in 2006 what was the percent of the total investments amount attributable to the track,66.3%,1487 / 2242 = 0.663 or 66.3%,True,True,True,0.0,0.0,True,1762.0,32.5,5210,28,12,956,66.3,0.663,True,True
+200,mem0_augmented,what portion of the robert mondavi's total assets acquired is related to goodwill?,34.3%,"$634,203",True,False,False,634168.7,18488.883381,False,2066.6,32.7,7438,8,12,956,6342.03,"634,203",False,False
+201,mem0_augmented,"as of december 31 , 2017 , assuming an average price per share of $ 12.12 , what would be the cost in millions to repurchase all the remaining shares remaining in the program?",2981.5,"$1,844",True,False,False,1842.5,1228.333333,False,1843.5,33.1,6169,6,12,956,1844.0,"1,844",False,False
+202,mem0_augmented,what is the percentage change in amortization expense from from 2008 to 2009?,2.0%,$2.0 million / $88.8 million = 2.26% decrease,True,True,True,0.26,0.13,False,1879.1,32.0,4801,45,12,956,2.0,2.0,True,True
+203,mem0_augmented,what is the percentage increase in total accumulated other comprehensive losses from 2014 to 2015?,37.7%,(9402 - 6826) / 6826 = 0.378 or 37.8%,True,True,True,0.1,0.002653,True,1793.5,33.2,4726,37,12,956,37.8,0.378,False,True
+204,mem0_augmented,what percent of total derivatives are from interest rate contracts in 2013?,73.22,"2400 / 3278 = 0.7325
+ Multiply by 100 to get percentage: 73.25%",True,True,True,0.03,0.00041,True,1635.7,32.6,4428,63,11,843,73.25,0.7325,False,True
+205,mem0_augmented,"accrued interest represented how much of the ending balance in uncertain tax benefits as of december 31 , 2014?",11.6%,$258 million,True,False,False,246.4,21.241379,False,1443.7,35.2,4542,12,11,843,2.58,258,False,False
+206,mem0_augmented,what was the change in rent expenses between 2010 and 2011?,-5,$26 million,True,False,False,31.0,6.2,False,1839.1,32.2,6669,11,12,959,0.26,26,False,False
+207,mem0_augmented,"what was the increase for the maximum company match on january 1 , 2011?",1%,75% - 50% = 25%,True,True,True,24.0,24.0,False,2124.3,32.5,6631,15,12,959,0.75,75%,True,True
+209,mem0_augmented,"in these equity investment balances , what is the percent of unfunded commitments at december 31 , 2012?",6.3%,14.5%,True,False,False,8.2,1.301587,False,1862.2,14.7,6734,5,14,1263,0.145,14.5%,False,False
+210,mem0_augmented,what was the change in millions of weighted average common shares outstanding for diluted computations from 2016 to 2017?,-12.5,3.1,True,False,False,15.6,1.248,False,1769.3,32.5,6412,3,14,1263,0.031,3.1,False,False
+211,mem0_augmented,what was the percentage change in inventories between 2017 and 2018?,-8%,"(4458.3 - 4111.8) / 4111.8 = 0.086 or 8.6%
+
+or 
+
+(4397.9 - 4122.8) / 4122.8 = 0.065 or 6.5%",True,True,True,14.5,1.8125,True,2377.2,32.4,4971,91,14,1263,0.00065,0.065,False,False
+212,mem0_augmented,what is the estimated price of hologic common stock used in the acquisition of suros?,23.2,"$106,500",True,False,False,106476.8,4589.517241,False,1576.9,34.6,5480,8,14,1263,1065.0,"106,500",False,False
+213,mem0_augmented,what was the percent of the increase in compensation cost recognized for rsus from 2008 to 2009,48.9%,((7.3 - 4.9) / 4.9) * 100 = 49%,True,True,True,0.1,0.002045,True,1865.1,33.9,5020,31,15,1350,49.0,49%,False,False
+214,mem0_augmented,as of december 2007 what was the ratio of the future debt maturities for 2011 to the amounts after 2012,0.15,453815 / 2996337 = 0.152,True,True,True,0.002,0.013333,True,1412.6,35.1,3976,24,15,1350,0.152,0.152,True,True
+215,mem0_augmented,north american consumer packaging net sales where what percentage of consumer packaging sales in 2008?,78%,"$2.5 billion / $3,195 million = 78%",True,True,True,0.0,0.0,True,2311.6,32.2,6675,35,15,1350,78.0,78%,True,True
+216,mem0_augmented,what is the combined amount of accrued interest and penalties related to tax positions taken on our tax returns in millions for fiscal 2018 and 2017?,48.2,"$24.6, $23.6",True,False,True,24.6,0.510373,True,2050.8,34.4,6322,12,15,1350,24.6,24.6,False,False
+218,mem0_augmented,"if there were 50 facilities being rated in 2009 , how many were bbb/baa?",1,2%,True,False,False,1.0,1.0,False,1956.2,33.9,7766,2,17,1520,0.02,2%,False,False
+219,mem0_augmented,"what will be the yearly interest expense for entergy louisiana for the bond issued in 2012 , ( in millions ) ?",4.7,$6.25,True,False,False,1.55,0.329787,False,1855.6,33.3,6414,5,17,1520,6.25,6.25,False,False
+220,mem0_augmented,"what is the interest expense in 2015 assuming that all the debt is interest bearing debt , ( in billions ) ?",0.86,$1.25 billion,True,False,False,0.39,0.453488,False,2888.3,30.5,9764,13,17,1500,1.25,1.25,False,True
+221,mem0_augmented,"what were capital expenditures associated with the retail segment since its inception , exclusive of the amount incurred during 2003 , in millions?",198,$198 million,True,False,False,0.0,0.0,True,2158.9,33.3,7729,12,17,1500,198.0,198,True,True
+222,mem0_augmented,"what is the difference in payments between entergy arkansas and entergy new orleans , in millions?",66,$66,True,False,False,0.0,0.0,True,1506.2,35.2,4929,3,18,1641,66.0,66,True,True
+223,mem0_augmented,"what was the average rental expense , net of sublease income from 2004 to 2006 in millions",232,$212.5,True,False,False,19.5,0.084052,True,1989.0,34.4,6819,6,18,1641,212.5,212.5,False,False
+224,mem0_augmented,what was the difference in percentage cumulative 5-year total stockholder return for cadence design systems inc . compared to the nasdaq composite for the period ending 12/29/2018?,145.29%,$110.95,True,False,False,34.34,0.236355,False,1394.1,34.3,3916,7,19,1726,110.95,110.95,False,False
+225,mem0_augmented,"considering the year 2016 , what was the percentual increase in the high sale price observed during the first and second quarters?",12.52%,"(51.30 - 30.66) / 30.66 * 100 = 67.3%
+(42.87 - 34.50) / 34.50 * 100 = 24.1%",True,True,True,11.58,0.92492,False,2483.4,32.7,5014,75,19,1726,1.0,100,False,False
+226,mem0_augmented,what is the net change in net revenue during 2016?,-124,$124 million,True,False,False,248.0,2.0,False,1449.7,32.8,4924,12,19,1726,1.24,124,False,False
+227,mem0_augmented,the non-recurring charge for the office facility closing was what percent of lease expense in 2006?,4.6%,$58000 / $1262000 = 0.046 or 4.6%,True,True,True,0.0,0.0,True,1867.3,34.1,5652,33,20,1783,4.6,0.046,True,True
+228,mem0_augmented,in 2019 what was the percent of the financing structure that was based on the equity,44.4%,45.6%,True,False,False,1.2,0.027027,True,1675.9,34.7,5320,5,20,1783,45.6,45.6%,False,False
+229,mem0_augmented,in 2013 what was the percent of the total operating revenues from mexico,9.6%,2.1 billion / 21963 million * 100 = 9.5%,True,True,True,0.1,0.010417,True,1958.3,34.8,5676,40,21,1847,9.5,9.5%,False,True
+231,mem0_augmented,what was the spread between the high and low henry hub natural gas ( dollars per mcf ) in 2009?,45.38,$5.87,True,False,False,39.51,0.870648,False,1990.1,33.5,6550,5,22,1912,5.87,5.87,False,False
+232,mem0_augmented,in 2005 what percentage of consumer packaging sales were represented by foodservice net sales?,19%,$437 million / $2245 million = 19.4%,True,True,True,0.4,0.021053,True,2271.4,33.0,7237,36,22,1912,19.4,19.4%,True,True
+233,mem0_augmented,what was the percent of the total commitment with an expiration of less that 1 year was subject to renewal,93.3%,"$2505 / $3066 = 0.816, or approximately 81.6%",True,True,True,11.7,0.125402,True,2428.5,33.2,7545,45,22,1912,81.6,0.816,False,False
+234,mem0_augmented,"considering the year 2014 , what is the variation between the capital expenditures on a gaap basis and the one on a non-gaap basis?",202.9,$303.0,True,False,False,100.1,0.493346,False,2176.0,32.9,7227,6,23,2001,303.0,303.0,False,False
+235,mem0_augmented,what is the percentage change in interest income from 2014 to 2015?,-16.8%,-3.9%,True,False,False,12.9,0.767857,True,1918.5,35.1,6959,5,23,2001,-3.9,-3.9%,False,False
+236,mem0_augmented,what was the average high and low stock price for the second quarter of 2002?,6.36,"$9.17
+$3.55",True,True,True,2.81,0.441824,False,1394.4,33.5,4029,11,23,2001,9.17,9.17,False,False
+237,mem0_augmented,"assuming a 5% ( 5 % ) rate of return , what would the earnings be ( in millions ) on 2008 total adjusted average assets?",98345,"$98,344",True,False,False,98299.0,2184.422222,True,2136.4,33.2,7863,7,23,2001,98344.0,"98,344",False,True
+238,mem0_augmented,what was the value of the rsu's granted,14759301.12,"$1,471,936",True,False,False,1471934.88,1314227.570255,True,1751.7,34.5,5615,10,23,2001,1471936.0,"1,471,936",False,False
+239,mem0_augmented,what was the percentage total return for delphi automotive plc for the five years ended december 31 2014?\\n,250.82%,((350.82 - 100) / 100) * 100 = 251%,True,True,True,0.18,0.000718,True,1753.7,35.7,4241,35,23,2001,251.0,251%,False,True
+240,mem0_augmented,what was the percentage change in net income ( loss ) on a pro forma basis between 2006 and 2007?,145%,"-68% to 17.39% or -68% to 1,738%",True,False,True,1593.0,10.986207,False,1867.5,33.7,5428,32,23,2001,17.39,17.39%,False,False
+241,mem0_augmented,what percent did the balance increase between the beginning of 2010 and the end of 2012?,41.75%,45%,True,False,False,3.25,0.077844,True,2211.5,35.7,7593,3,23,2001,45.0,45%,False,False
+242,mem0_augmented,what percentage of the total purchase price net of cash acquired is ipr&d ?,29%,53.1 / 182.2 = 0.2915 or approximately 29.15%,True,True,True,0.15,0.005172,True,1973.7,32.7,5714,45,23,2001,29.15,0.2915,True,True
+243,mem0_augmented,tier 2 capital is what percent of total capital for 2008?,26.3%,48616 / 184720 = 0.264 or 26.4%,True,True,True,0.1,0.003802,True,2476.1,36.4,7800,31,23,2001,26.4,26.4%,False,True
+244,mem0_augmented,"considering the fair market value of plan assets in 2018 , what is its estimated return for 10 years?",8327.41,6.9%,True,False,False,0.51,0.068826,False,2005.5,35.9,6334,4,24,2053,6.9,6.9%,False,False
+245,mem0_augmented,in 2002 what was the ratio of the net mw in operation to the generation in gwh for the year,2 net mw in operation at december 31 3955 3445 2475\\n3 generation in gwh for the year 29953,3955 / 29953 = 0.1323,True,True,True,52.8677,0.997504,True,1814.7,34.5,5187,21,24,2053,0.1323,0.1323,False,False
+246,mem0_augmented,"for 2013 , what was the total in millions of the combined interest only product and principal and interest product?",1542,$20723,True,False,True,21.0,10.5,False,2205.2,35.7,7752,6,24,2053,207.23,20723,False,False
+247,mem0_augmented,"in 2011 , did the company distribute more to shareholders than debtholders?",yes,No.,False,False,False,,,False,1717.2,33.9,6225,3,25,2150,,,False,False
+248,mem0_augmented,what is the ratio of the deffered tax assets for the state income tax credit carry-forwards to the net operating loss carry-forward,5.3,$16M / $3M = 5.33,True,True,True,0.03,0.00566,True,2453.3,33.5,6901,17,25,2150,5.33,5.33,True,True
+249,mem0_augmented,what percent of assets acquired by the acquisition are non-tangible assets?,96%,(4091 + 1031) / 19427 * 100 = 22.4%,True,True,True,73.6,0.766667,False,1905.6,39.0,5555,35,25,2150,100.0,100,False,False
+250,mem0_augmented,in 2009 what was the company 2019s consolidated net sales in billions,22.19,$7146 million,True,False,True,16.19,0.729608,False,2255.6,33.1,7370,13,25,2150,71.46,7146,False,False
+251,mem0_augmented,"what was the average revenue from discontinued operations in 2013 and 2011 , in millions?",738.5,"$251.5 million, $243.75 million",True,False,True,494.75,0.669939,True,1874.7,33.7,5958,31,26,2218,251.5,251.5,False,False
+252,mem0_augmented,as of december 312013 what was the percent of the total contractual obligations global headquarters operating leases,47.3%,81.6%,True,False,False,34.3,0.725159,False,1677.6,36.8,5307,5,27,2292,81.6,81.6%,False,False
+253,mem0_augmented,what is the difference between the high wti crude oil and western canadian select prices?,$ 30.34,$145.29 - $114.95 = $30.34,True,True,True,0.0,0.0,True,2349.6,34.7,7358,26,27,2292,30.34,30.34,True,True
+254,mem0_augmented,"what is the total amount of parent company guarantees combined for 2007 and 2008 , in millions?",582.8,$583.8,True,False,False,1.0,0.001716,True,2049.5,32.3,6790,6,27,2292,583.8,583.8,False,False
+255,mem0_augmented,what percent increase in net income was experienced between 2015 and 2016,6.51%,92.9%,True,False,False,86.39,13.270353,False,1465.6,35.1,4705,5,27,2292,0.929,92.9%,False,False
+256,mem0_augmented,in 2008 what was the percent of the total gaap stockholders 2019 equity and aggregate statutory capital associated with life operations,43.9%,$6047 / $13777 = 44%,True,True,True,0.1,0.002278,True,2413.0,36.7,8501,20,27,2292,44.0,44%,False,False
+257,mem0_augmented,what was the return on total assets during 2013?,4.2%,261/6190 = 0.0422 or 4.22%,True,True,True,0.02,0.004762,True,1604.2,34.1,3725,26,25,2175,4.22,0.0422,True,True
+258,mem0_augmented,what was the percentage of the anticipated approximate tax refund in 2003 based on the nol $ 90.0 million .,23.7%,"$380,000,000 / $90,000,000 = 422.22%",True,True,True,398.52,16.81519,False,2086.9,36.0,6466,36,25,2175,4.2222,422.22%,False,False
+259,mem0_augmented,as of december 31 2010 percent of the cabinets and related products to the total gross goodwill,13.9%,223 / 587 = 0.381,True,True,True,24.2,1.741007,False,2108.7,32.8,6566,17,25,2175,5.87,587,False,False
+260,mem0_augmented,what is the roi of an investment in loews common stock from 2010 to 2011?,-2.6%,(101.72 - 97.37) / 100 = 3.35%,True,True,True,5.95,2.288462,False,1649.0,34.7,3862,30,25,2175,0.0335,3.35%,False,False
+261,mem0_augmented,what was the greatest gross margin percentage in the three year period?,27.9,27.9%,True,False,False,0.0,0.0,True,2390.2,25.6,8383,5,26,2230,27.9,27.9%,True,True
+262,mem0_augmented,"what is the total value of fixed maturities and cash as of december 31 , 2015 , in billions?",15.5,$15.0 billion,True,False,False,0.5,0.032258,True,2405.8,25.9,6816,13,27,2274,15.0,15.0,False,True
+263,mem0_augmented,what percent of assets acquired by the acquisition are non-tangible assets?,96%,"$4091 + $1031 = $5122
+$19427 - $5122 = $14305
+(5122 / 19427) * 100% ≈ 26.4%",True,True,True,69.6,0.725,False,2303.7,33.3,5679,75,27,2274,100.0,100%,False,False
+264,mem0_augmented,what percentage of total inventories is comprised of finished goods in 2007?,62%,1001.3 / 1625.1 = 0.618 or 61.8%,True,True,True,0.2,0.003226,True,1813.8,34.5,4625,32,27,2274,61.8,0.618,True,True
+265,mem0_augmented,what was the percentage change in the company recognized tax-related interest and penalties in 2011 .,15.8%,-33%,True,False,False,48.8,3.088608,False,1655.5,34.8,5885,4,27,2274,-0.33,-33%,False,False
+266,mem0_augmented,what is the operating margin for connected fitness in 2014?,-68.0%,-13.1%,True,False,False,54.9,0.807353,True,1844.9,37.0,5684,6,28,2367,-13.1,-13.1%,False,False
+267,mem0_augmented,what is the difference in millions of international subscribers between discovery channel and animal planet?,63,246 - 183 = 63,True,True,True,0.0,0.0,True,1949.6,34.4,7158,14,28,2367,63.0,63,True,True
+268,mem0_augmented,what is the percentage change in the weighted-average discount rate for non-u.s . pension plans from 2014 to 2015?,-12.5%,-3.0%,True,False,False,9.5,0.76,False,2266.8,36.1,8686,5,28,2367,-3.0,-3.0%,False,False
+269,mem0_augmented,what was the percent of minimum total assets available for default that was guaranty fund contributions ( 2 ),26.4%,2899.5 / 10973.1 = 0.265,True,True,True,0.1,0.003788,True,3429.7,37.6,11674,24,29,2475,26.5,0.265,False,False
+270,mem0_augmented,"considering the gaap basis , what was the growth observed in the effective tax rate during 2012 and 2013?",0.9%,-1.9%,True,False,False,2.8,3.111111,False,2130.5,37.5,6766,5,29,2475,-0.019,-1.9%,False,False
+271,mem0_augmented,for the year ended december 302007 what was the net margin,4.7%,$0.047,True,False,False,0.0,0.0,False,1754.0,35.7,5863,6,29,2475,4.7,0.047,True,True
+272,mem0_augmented,what is the percentage increase in total accumulated other comprehensive losses from 2013 to 2014?,62.9%,-1.01%,True,False,False,63.91,1.016057,False,1876.9,33.8,6245,6,29,2475,-0.0101,-1.01%,False,False
+273,mem0_augmented,"what is the net change in net revenue during 2016 for entergy texas , inc.?",7,$7 million,True,False,False,0.0,0.0,True,1524.3,35.2,4972,10,30,2573,7.0,7,True,True
+274,mem0_augmented,what was the percentage cumulative 5-year total stockholder return for cadence design systems inc . for the period ending 12/29/2018?,211.13%,$211.13%,True,False,False,0.0,0.0,True,1624.0,34.1,4716,8,30,2573,211.13,211.13%,True,True
+275,mem0_augmented,what was the ratio of the snap-on 2019s performance to that of the standard & poor 2019s 500 stock index in 2012,1.72,108.59 / 108.59 = 1,True,True,True,0.72,0.418605,False,1691.2,36.6,4383,19,31,2673,1.0859,108.59,False,False
+276,mem0_augmented,what was the total revenues in 2009 based on the consulting segment generated 17% ( 17 % ) of our consolidated total revenues in millions,7452.94,"$1267 million * 1.17 = $1483.59 
+
+However, since we are looking for a number that is already given as part of the table, I will use the segment revenue from the table.
+
+$1267 million",True,True,True,4.06,1.380952,False,2715.8,37.7,6805,182,31,2673,11699.999999999998,1.17,False,False
+277,mem0_augmented,"what is the percentage of allowance of the company's purchased distressed loan portfolio at december 31 , 2010?",16%,77%,True,False,False,61.0,3.8125,False,1770.3,33.2,5437,3,31,2673,0.77,77%,False,False
+278,mem0_augmented,what was highest net rental expense in millions?,267,$267 million,True,False,False,0.0,0.0,True,2118.5,35.7,7532,12,32,2754,267.0,267,True,True
+279,mem0_augmented,what would the investment income ( loss ) have been in 2015 without the gain from the sale of shares of arris group common stock in 2014?,-73,$ -81 million,True,False,False,8.0,0.109589,True,2182.6,38.4,6961,13,32,2754,-81.0,-81,False,False
+280,mem0_augmented,what is the current ratio of robert mondavi?,1.7,$513782 / $310919 = 1.66,True,True,True,0.04,0.023529,True,2749.7,34.4,9248,24,33,2804,1.66,1.66,True,True
+281,mem0_augmented,what is the percent change in earnings for non-utility nuclear from 2001 to 2002?,57.0%,"$128M to $201M is an increase of $73M.
+($73M / $128M) * 100% = 57.03%",True,True,True,0.03,0.000526,True,2494.6,34.5,5928,69,33,2804,57.03,57.03%,True,True
+282,mem0_augmented,what were average backlog at year-end for mfc from 2013 to 2015 in millions?,14367,$14300 + $15500 / 2 = $14900,True,True,True,67.0,1.0,True,2458.2,37.4,7716,28,34,2885,14300.0,14300,False,False
+283,mem0_augmented,"as of december 31 , 2015 what was the percentage decline in the gross unrecognized tax benefits from 2014 to 2015",-32.9%,-13.9 / 70.1 * 100 = -19.8%,True,True,True,13.1,0.398176,False,2263.8,34.4,6221,27,35,2975,-19.8,-19.8%,False,False
+284,mem0_augmented,what is the growth rate in the number of stores during 2011?,2.7%,(3460 - 3369) / 3369 = 0.026 or 2.6%,True,True,True,0.1,0.037037,True,2354.3,33.4,7246,36,35,2976,2.6,0.026,False,False
+285,mem0_augmented,what portion of the company owned facilities are located in europe?,13.3%,11,True,False,False,2.3,0.172932,False,1973.9,37.5,6962,2,36,3032,11.0,11,False,False
+286,mem0_augmented,what was the average price per share from november to december?,3.61,$3.98,True,False,False,0.37,0.102493,False,1496.2,35.4,4562,5,36,3032,3.98,3.98,False,True
+287,mem0_augmented,"what is the gross carrying amount in millions of the company's purchased distressed loan portfolio at december 31 , 2010?",469,$469,True,False,False,0.0,0.0,True,1790.0,33.9,5806,4,36,3032,469.0,469,True,True
+288,mem0_augmented,"including the shares repurchased under the december 2007 repo agreement , what was the total authorized shares ( in millions ) eligible for repurchase under the january 23 , 2008 repurchase authorization?\\n\\n",12.675,12 + 0.675,True,False,True,12.0,0.946746,True,2095.4,39.6,6824,10,36,3032,12.0,12,False,False
+289,mem0_augmented,what was the percentage cumulative total shareholder return for ball corporation for the five year period ending 12/31/10?,78.93%,178.93%,True,False,False,100.0,1.266945,False,2040.5,35.1,5574,7,36,3032,1.7893,178.93%,False,False
+290,mem0_augmented,what was the percentage change in proportional free cash flow between 2013 and 2014?,-30%,-380%,True,False,False,350.0,11.666667,False,2539.0,39.6,8917,5,36,3032,-3.8,-380%,False,False
+291,mem0_augmented,what was the change in defined contribution plans expenses for the u.s . between 2015 and 2016 in millions?,2.3,"$4.4 million 
+
+($42.5 - $40.2)",True,True,True,37.9,16.478261,True,2893.4,37.8,9051,30,36,3032,0.425,42.5,False,False
+292,mem0_augmented,"what percentage of total goodwill is attributable to retail bank reporting unit as december 31 , 2011?",2%,40.6 / 1934.2 = 2.10%,True,True,True,0.1,0.05,True,1868.4,36.6,5643,21,37,3127,2.1,2.10%,True,True
+293,mem0_augmented,what percent of total commitments expire in 1-3 years?,17%,$524 / $3066 = 0.171 or 17.1%,True,True,True,0.1,0.005882,True,2859.0,38.0,8708,29,37,3127,17.1,0.171,True,True
+294,mem0_augmented,what portion of the future minimum operating lease payments is due in the next 12 months?,33.5%,"$30,869",True,False,False,30835.5,920.462687,False,2176.3,34.6,6667,7,37,3127,308.69,"30,869",False,False
+295,mem0_augmented,"considering the years 2016-2017 , what is the percentual increase observed in the payment amount per share?",28.45%,(216 - 172) / 172 * 100 = 25%,True,True,True,3.45,0.121265,False,2464.9,39.1,7453,29,37,3127,25.0,25%,False,False
+296,mem0_augmented,what percentage of total purchase commitments are due in 2013?,3%,0.33%,True,False,False,2.67,0.89,True,1899.4,35.7,6537,5,38,3196,0.33,0.33%,False,False
+297,mem0_augmented,"for revisions of previous estimates , what was the impact in mmboe resulting from an increase in drilling programs in u.s . resource plays and an increase in discontinued operations due to technical reevaluation and lower royalty percentages related to lower realized prices?",172,105 + 67 = 172,True,True,True,0.0,0.0,True,2265.3,36.3,7356,14,38,3196,172.0,172,True,True
+298,mem0_augmented,what was the percent of the finished products to the total inventory,24.03%,$988.1 / $4111.8 = 0.24 or 24%,True,True,True,0.03,0.001248,True,2337.8,35.8,6904,30,38,3196,24.0,0.24,False,True
+299,mem0_augmented,what was the percentual increase of other income due to favorable foreign exchange and reimbursements in 2011?,11.46%,5.4 / 47.1 * 100 = 11.38%,True,True,True,0.08,0.006981,True,2654.1,34.1,7492,25,38,3196,11.38,11.38%,False,False
+300,mem0_augmented,in 2017 what was the debt to equity based on the 2017 actual asset allocation,2.33,70% : 30%,True,False,True,27.67,11.875536,False,1893.1,35.7,6453,9,38,3196,0.7,70%,False,False
+301,mem0_augmented,what percentage of average common equity attribution in 2016 is made up of institutional securities?,63%,17.2 / 68.9 * 100 = 25.1%,True,True,True,37.9,0.601587,False,2862.2,33.9,8912,25,38,3196,68.9,68.9,False,False
+302,mem0_augmented,what was the return on total assets during 2014?,5.4%,$0.338 or 3.38%,True,False,True,2.02,0.374074,True,1889.2,37.8,4746,15,38,3196,3.38,3.38%,False,False
+303,mem0_augmented,what is the net change in shares of common stock outstanding from 2013 to 2014 in millions?,6,"1951 - 1945 = 6 
+
+(46 + 27) - (52 + 2) = 6",True,True,True,0.0,0.0,True,2509.5,34.1,7105,42,39,3249,6.0,6,True,True
+304,mem0_augmented,"on february 13 , 2009 what was the market capitalization",11456267981.5,"$11,444,111,419",True,False,False,11444111337.5,140418544.016682,True,2117.4,37.6,5927,15,39,3249,11444111419.0,"11,444,111,419",False,False
+305,mem0_augmented,what was the difference between the high and low aeco natural gas sales index?,$ 5.92,$5.92,True,False,False,0.0,0.0,True,2500.9,33.6,8369,5,40,3314,5.92,5.92,True,True
+306,mem0_augmented,what portion of the suros acquisition price is paid in cash?,56.0%,"$139,000",True,False,False,138944.0,2481.142857,False,2292.7,35.5,7506,8,40,3314,1390.0,"139,000",False,False
+307,mem0_augmented,"as of december 31 , 2016 what was the percent of the total commercial lending of the total commitments to extend credit and other commitments",66.05%,$108256 / $163897 = 0.662 or 66.2%,True,True,True,0.15,0.002271,True,2266.3,37.5,6704,34,41,3364,66.2,0.662,False,False
+308,mem0_augmented,"what were average proportional recoverable environmental capital expenditures for the years december 31 , 2015 , 2014 and 2013 , in millions?",159.3,"$-51, $-56, $-75",True,False,True,234.3,1.47081,False,2788.4,38.7,9306,16,41,3364,-0.51,-51,False,False
+309,mem0_augmented,"what is the total return is $ 100000 are invested in s&p500 on january 1st , 2015 and sold at the end of 2016?",1877,$129.05 * $109.54 = $141.19,True,True,True,134.19,19.17,False,2072.7,34.3,5580,27,42,3460,141.19,141.19,False,False
+310,mem0_augmented,what was the percentage increase total commitments to extend credit and other commitments,5.3%,"$181612 - $172521 = $9091 million
+($9091 / $172521) * 100% ≈ 5.27%",True,True,True,0.03,0.00566,True,2618.3,36.0,7279,66,42,3460,5.27,5.27%,True,True
+311,mem0_augmented,"for the quarter ended september 30 , 2013 what was the total number of shares purchased in august",89.9%,"6,640,563",True,False,False,6640473.1,73865.106784,False,2054.5,34.2,6047,9,42,3460,66405.63,"6,640,563",False,False
+312,mem0_augmented,what portion of the purchasing price is dedicated to net tangible assets?,79.2%,"$24,800",True,False,False,24720.8,312.131313,False,2181.0,36.7,7670,7,43,3523,248.0,"24,800",False,False
+313,mem0_augmented,"without the commercial banking segment , what would 2005 operating income have been reduced to , in us$ m?",9514,"$1,521",True,False,False,1517.0,379.25,False,2630.5,34.7,9222,6,44,3569,1521.0,"1,521",False,False
+314,mem0_augmented,what was the difference in total return percentage beteween e*trade financial corporation and the s&p 500 index for the five years ended 12/14?,-67.33,20.33%,True,False,False,87.66,1.301946,False,1575.2,35.8,4497,6,45,3615,0.2032999999999999,20.33%,False,False
+315,mem0_augmented,"if there were a 100bp rise in rates , how much more would the impact be on earnings in 2009 vs . 2008?\\n",1226,$554 - $672 = -$118,True,True,True,112.0,18.666667,False,2977.3,37.7,10202,19,45,3615,672.0,672,False,False
+316,mem0_augmented,what was the average expected life of the options for the three year period?,5.2,5.0 years,True,False,False,0.2,0.038462,True,2873.9,34.4,8818,9,45,3615,5.0,5.0,False,True
+317,mem0_augmented,what is the long-term retail/hnw in americas as a percentage of the total long-term retail/hnw?,73.9%,74%,True,False,False,0.1,0.001353,True,2589.5,34.2,8238,3,46,3663,74.0,74%,False,True
+318,mem0_augmented,does the company spend more on advertising in 2012 than on research and development?,no,No,False,False,False,,,True,2559.2,34.0,9428,2,47,3717,,,False,False
+319,mem0_augmented,"what is the annual interest expense for entergy louisiana incurred from the series first mortgage bonds due september 2018 , in millions?",19.5,$15.75 million,True,False,False,3.75,0.192308,True,2348.9,35.0,7671,14,47,3717,15.75,15.75,False,False
+320,mem0_augmented,in 2008 what was the carrying amount reported on the consolidated balance sheet to aggregate unpaid principal balance in excess of fair value of the trading assets,2.5,$6501,True,False,True,1.5,0.6,False,3033.7,35.0,10912,5,48,3783,65.01,6501,False,False
+322,mem0_augmented,goodwill was what percent of the mondavi acquisition?\\n,34.3%,"$634,203 / $1,048,661 = 60.5%",True,True,True,26.2,0.763848,False,3171.0,33.8,10239,29,48,3783,60.5,60.5%,False,False
+323,mem0_augmented,what is the total return of the jpmorgan chase & co . stock over the above refernced five year period?,67.48%,$67.48,True,False,False,0.0,0.0,True,1928.8,35.3,5402,6,48,3783,67.48,67.48,True,True
+324,mem0_augmented,what percentage of long-term debt is due after 2021?,89%,$3774 / $21361 * 100 = 17.64%,True,True,True,71.36,0.801798,False,3736.6,35.4,11922,29,49,3859,100.0,100,False,False
+325,mem0_augmented,what was the overall growth of the s&p 500 index from 2010 to 2015,80.75%,"180.75 / 100.0 = 1.8075
+1.8075 - 1 = 0.8075
+0.8075 / 1 = 80.75%",True,True,True,0.0,0.0,True,2614.3,35.4,5539,63,49,3859,80.75,0.8075,True,True
+326,mem0_augmented,what portion of the total acquisition price of suros is dedicated to goodwill?,75.6%,"$202,000",True,False,False,201924.4,2670.957672,False,2249.6,37.2,7699,8,49,3859,2020.0,"202,000",False,False
+327,mem0_augmented,what was the percentage cumulative return for lkq corporation for the five years ended 12/31/2016?,104%,204 / 100 = 2.04 or 204%,True,True,True,100.0,0.961538,False,1983.0,37.9,5263,24,49,3859,100.0,100,False,False
+328,mem0_augmented,what percent of the total common stock plans are related to the vertex purchase plan?,1.1%,2.24%,True,False,False,1.14,1.036364,False,2358.9,36.5,8301,5,49,3859,0.0224,2.24%,False,False
+329,mem0_augmented,"based upon outstanding balances at december 31 , 2011 what was the percent of the principal and interest product of the combined products",23%,$7616 / $13107 = 0.58 or 58%,True,True,True,35.0,1.521739,True,2915.6,37.2,9656,28,50,3935,0.58,0.58,False,False
+330,mem0_augmented,"for miscellaneous receivables and other assets , what was the percentage that represented assets related to the firm 2019s reinsurance business which were classified as held for sale as of december 2012?",3.464,"16.77 billion / 39,623 million = 0.424 or 42.4%",True,True,True,38.936,11.240185,True,2659.4,36.4,7938,47,51,4040,0.424,0.424,False,False
+331,mem0_augmented,what is the average of the afs investment securities during the years 2016-2018?,221866,203449,True,False,True,417.0,0.481524,False,3144.9,35.3,10650,6,52,4179,203449.0,203449,False,False
+332,mem0_augmented,"between december 31 , 2011 and december 31 , 2010 , what was the change in the unpaid principal balance outstanding of loans sold as a participant in these programs in billions?",0.2,$-0.2 billion,True,False,False,0.4,2.0,True,2946.0,40.0,10100,13,52,4179,-0.002,-0.2,False,True
+333,mem0_augmented,what was the percentage change in revenue on a pro forma basis between 2006 and 2007?,96%,-95.5%,True,False,False,191.5,1.994792,False,2298.2,37.2,7594,6,52,4179,-0.955,-95.5%,False,False
+334,mem0_augmented,what is the growth rate of the net earnings for basic and diluted eps?,-13.3%,$ ( 6021 - 6849 ) / 6849 * 100% ≈ -12.04%,True,False,True,1.26,0.094737,True,2295.7,36.2,5960,41,52,4179,-12.04,-12.04%,False,False
+335,mem0_augmented,what is the percentage difference in the fair value per share between 2014 and 2015?,54%,-16.3%,True,False,False,70.3,1.301852,False,2494.4,39.3,7832,6,52,4179,-0.163,-16.3%,False,False
+336,mem0_augmented,what is the average price per share of the company 2019s common stock in the third quarter of 2016?,30,$30.83,True,False,False,0.83,0.027667,True,2462.6,35.6,7516,6,53,4259,30.83,30.83,False,False
+337,mem0_augmented,what was the percentage return for pmi common stock for the five years ended 2018?,-3.5%,-3.5%,True,False,False,0.0,0.0,True,2152.4,34.2,6198,5,53,4259,-3.5,-3.5%,True,True
+338,mem0_augmented,"what is the change in total debt to be repaid in the contractual obligations for future payments under existing debt and lease commitments and purchase obligations at december 31 , 2005 between 2008 and 2007?",-262,$308 - $570 = -$262 million,True,True,True,524.0,2.0,True,3060.4,35.8,10294,27,54,4339,2.62,262,False,False
+339,mem0_augmented,"for the five years ended 12/31/2006 what is the performance difference of the class b common stock of united parcel service , inc . and the dow jones transportation average?",-33.84%,$8.92,True,False,False,42.76,1.263593,False,2174.5,37.7,6411,5,54,4339,0.0892,8.92,False,False
+340,mem0_augmented,what were total operating expenses as a percentage of revenue in 2013?,93.8%,$0.62 or 1.52%,True,False,True,92.28,0.983795,False,2685.2,35.4,8709,14,54,4339,62.0,0.62,False,False
+341,mem0_augmented,"what is the net change in net revenue during 2003 for entergy louisiana , inc.?",50.8,$51 million,True,False,False,0.2,0.003937,True,2261.3,36.8,7268,11,55,4411,51.0,51,False,True
+343,mem0_augmented,"at december 31 , 2013 what was the percent of square feet of our office in alpharetta , georgia not leased",65%,"165,000",True,False,False,164935.0,2537.461538,False,2545.9,36.6,8471,7,55,4411,1650.0,"165,000",False,False
+344,mem0_augmented,"what was the percentage change in capital expenditures for property , plant and equipment from 2009 to 2010?",-4%,-3%,True,False,False,1.0,0.25,True,3073.4,36.9,10435,3,56,4499,-3.0,-3%,False,False
+345,mem0_augmented,what was the percentage growth in the stock price performance for tractor supply company from 2012 to 2013,74.14%,34.14%,True,False,False,40.0,0.53952,False,2060.5,36.1,5972,6,56,4499,34.14,34.14%,False,False
+346,mem0_augmented,what was the ratio of the total loss due to instrument-specific credit risk for 2008 to 2007,0.2,$188 million / $38 million = 4.95 or 498%,True,True,True,497.8,2488.999988,True,3523.0,37.5,11658,41,57,4600,0.0495,4.95,False,True
+347,mem0_augmented,what is the increase observed in the balance at the end of the year during 2005 and 2004?,11.49%,"$68,412,000",True,False,False,68411988.51,5954045.996871,False,1929.1,39.8,5651,11,57,4600,684120.0,"68,412,000",False,False
+348,mem0_augmented,"as of december 31 , what was percent of the capital markets goodwill to the total",7.4%,142.4 / 1934.2 = 7.38%,True,True,True,0.02,0.002703,True,2361.8,36.3,7168,22,58,4673,7.38,7.38%,True,True
+349,mem0_augmented,"as of as of december 31 , 2007 what was the percent of the total debt maturities that was due in 2009",7.1%,$542 / $7680 = 7.04%,True,True,True,0.06,0.008451,True,2772.7,35.4,8662,20,57,4628,7.04,7.04%,False,True
+350,mem0_augmented,what is the percent change in annual long-term debt maturities ( excluding lease obligations ) and annual cash sinking fund requirements for debt outstanding from 2005 to 2004?,71.2%,-23.1%,True,False,False,94.3,1.324438,False,2659.2,38.7,8504,6,57,4628,-0.231,-23.1%,False,False
+351,mem0_augmented,what was the growth rate of maximum exposure to loss from vies from 2016 to 2017?,-42%,-42%,True,False,False,0.0,0.0,True,3000.6,39.3,10549,4,57,4628,-42.0,-42%,True,True
+352,mem0_augmented,"what percent of the receivable balances in puerto rico as of december 31 , 2017 was current?",38%,53%,True,False,False,15.0,0.394737,False,2702.6,36.9,9114,3,57,4628,53.0,53%,False,False
+353,mem0_augmented,what portion of total backlog is related to newport news segment?,50.6%,"$13,867 million",True,False,False,13816.4,273.051383,False,2837.0,39.6,8851,15,58,4709,138.67,"13,867",False,False
+354,mem0_augmented,what was the value of the treasury stock as of december 312007,643822.11,"$636,111",True,False,False,635288.89,772.75412,True,2277.8,35.6,7143,8,59,4766,636111.0,"636,111",False,False
+355,mem0_augmented,on december 312013 what was the net profit margin,6.2%,"2.53% 
+
+Net income / Revenue = $2526 / $40678 ≈ 0.0621 or 6.21%
+However, this is not the answer to the question. The correct calculation for Net Profit Margin is:
+Net Income / Revenue
+= ($2526 - $23,600) / $40,678 
+= $2286 / $40,678 
+≈ 0.0563 or 5.63%",True,True,True,0.57,0.091935,False,4197.1,33.0,9182,251,60,4833,6.21,0.0621,True,True
+356,mem0_augmented,"considering the state of minnesota , what is the percentage of commercial/industrial customers concerning the total customers?",8.36%,58%,True,False,False,49.64,5.937799,False,2781.3,37.7,9316,3,61,4884,0.58,58%,False,False
+357,mem0_augmented,what was the change in millions of total long-term debt net from 2014 to 2015?,9119,$9122 million,True,False,True,7.0,0.777778,True,3246.7,37.5,9656,13,61,4884,9122.0,9122,False,True
+358,mem0_augmented,"what was the number of shares of stockholders of record on december 29 , 2017 in millions",137.5,0.55,True,False,False,136.95,0.996,False,2868.1,34.8,9280,4,62,4972,55.00000000000001,0.55,False,False
+360,mem0_augmented,"without the asset & wealth management segment in 2015 , what would total operating income have been in us$ millions?",9305,"$9,421",True,False,False,9416.0,1883.2,True,3120.1,35.7,10717,6,63,5054,9421.0,"9,421",False,False
+361,mem0_augmented,how much goodwill does the company have as a % (  % ) of current assets?,921%,$92.1%,True,False,False,828.9,0.9,False,2632.9,36.9,8489,6,64,5105,92.1,92.1%,False,False
+362,mem0_augmented,what was the difference in operating profit for europe as a percentage of net sales between 2001 and 2003?,6.8%,24.4% - 19.5% = 4.9%,True,True,True,1.9,0.279412,False,3681.9,40.2,11461,20,65,5177,4.9,4.9%,False,False
+363,mem0_augmented,what is the current ratio?,-0.85,$28.1 / ($320.1 - $32.9) = 0.09,True,True,True,0.94,1.105882,False,2906.7,34.5,8515,31,65,5177,0.0009,0.09,False,False
+364,mem0_augmented,what is the tax expense related to discontinued operations in 2012?,25,$62 million,True,False,False,37.0,1.48,False,2902.9,36.8,8895,11,65,5177,0.62,62,False,False
+365,mem0_augmented,"for all of 2011 , approximately how much was spent on stock repurchases?",14739445000,"$391,579,500",True,False,False,391579500.0,3.915795e+17,False,2400.7,36.8,7339,12,65,5177,391579500.0,"391,579,500",False,False
+366,mem0_augmented,what is the roi of an investment in pmi from 2013 to 2014?,2.1%,-2.9%,True,False,False,5.0,2.380952,False,2480.3,44.1,7160,5,66,5245,-0.0289999999999999,-2.9%,False,False
+367,mem0_augmented,what are the lease obligations to entergy louisiana as a percentage of long-term debt maturities in 2014?,38.7%,0.039%,True,False,False,38.661,0.998992,False,2787.3,35.1,8974,6,65,5182,0.039,0.039%,False,False
+368,mem0_augmented,"considering the years 2014-2016 , what is the lowest interest incurred observed?",148.4,$103.5 million,True,False,False,44.9,0.302561,True,2987.2,37.6,9238,14,66,5290,103.5,103.5,False,False
+369,mem0_augmented,"what is the roi of an investment in advance auto parts from 2006 to january 3 , 2009?",-2.7%,-23.74%,True,False,False,21.04,7.792593,False,2581.1,36.7,7408,7,65,5196,-0.2373999999999999,-23.74%,False,False
+370,mem0_augmented,"at december 31 , 2008 what was the ratio of the tier 2 capital compared to 2007",0.94,15.18% ( 13.33% ),True,False,True,12.39,13.180851,False,3320.9,38.3,9855,17,66,5281,0.1518,15.18%,False,False
+371,mem0_augmented,"what is the total difference , in millions , in 2015 between a 10% ( 10 % ) increase and 10% ( 10 % ) decrease in interest rates?",78.4,$69.4 million,True,False,False,9.0,0.114796,True,3064.3,38.6,10368,13,67,5348,69.4,69.4,False,False
+372,mem0_augmented,how much was cost of good sold in 2009?,$ 108 million,"$7.146 billion - $188 million = $6,958,112 million",True,True,True,6958004.0,64425.962962,False,3168.4,36.7,9338,50,67,5348,188.0,188,False,False
+373,mem0_augmented,what was the change in industry segment operating profits between 2003 and 2004?,306,$97 million,True,False,False,209.0,0.683007,False,3218.8,37.5,10582,11,68,5400,97.0,97,False,False
+374,mem0_augmented,what is the percentage increase from 2014-2015 in total cash flow data?,2.04%,$4.5 million / $669.5 million = 0.0067 or 0.67%,True,True,True,1.37,0.671569,True,3298.7,37.4,9413,47,68,5400,0.67,0.0067,False,False
+375,mem0_augmented,what is the amortized cost as a percent of the fair value of the securities in 2009?,103%,-0.29%,True,False,False,103.29,1.002816,False,2774.7,38.0,9083,6,69,5470,-0.0029,-0.29%,False,False
+376,mem0_augmented,what are the higher charges related to tobacco and health judgments as a percentage of the operating companies income increase?,73.1%,$87 million / $119 million = 0.733 or 73.3%,True,True,True,0.2,0.002736,True,3988.6,36.5,11893,43,70,5555,73.3,0.733,False,False
+377,mem0_augmented,"what would end of year proven reserves be without the increase for extensions , discoveries , and other additions , in mmboe?",489,552 - 57 = 495,True,True,True,6.0,0.01227,True,3093.5,36.1,9565,14,70,5555,495.0,495,False,False
+378,mem0_augmented,what was the ratio of the debts to the assets in the purchase transaction,17.8%,0.197 or 19.7%,True,False,True,1.9,0.106742,True,2945.0,37.9,9469,14,71,5670,19.7,0.197,False,False
+379,mem0_augmented,what percentage of long-term financing was classified as current at the end of 2005?,4%,0.0045%,True,False,False,3.9955,0.998875,True,2805.1,38.8,8826,7,71,5670,0.0045,0.0045%,False,False
+380,mem0_augmented,in 2017 what was the percent of the common stock authorized that was issued and outstanding for the class a common stock,33.9%,339235 / 1000000 = 0.339235 or 33.9235%,True,True,True,0.0235,0.000693,True,3254.0,38.8,9684,39,71,5642,33.9235,33.9235%,True,True
+381,mem0_augmented,what percent of total commitments expire in less than 1 year?,82%,81.6%,True,False,False,0.4,0.004878,True,3390.8,66.4,11301,5,72,5713,81.6,81.6%,True,True
+382,mem0_augmented,what percentage of the total purchase price net of cash acquired is goodwill?,78%,142.1 / 182.2 = 0.78 or 78%,True,True,True,0.0,0.0,True,3118.4,38.1,9428,27,72,5713,78.0,0.78,True,True
+383,mem0_augmented,what is the roi of nasdaq composite from 2008 to 2012?,10.8%,"To calculate the ROI (Return on Investment) of Nasdaq Composite from 2008 to 2012, we need to find the percentage change in its value over this period.
+
+From the table, we can see that:
+- On 12/29/2007, the value was 100.00
+- On 12/31/2011, the value was 98.63
+
+However, there is no direct data for 2008 to 2012 in the table. We need to calculate it using the available data.
+
+From 12/29/2007 to 12/31/2011:
+Value on 12/31/2011 = 98.63
+Value on 12/29/2007 = 100.00
+
+Percentage change from 2007 to 2011 = (98.63 - 100.00) / 100.00 * 100% ≈ -2.37%
+
+From 12/31/2011 to 12/29/2012:
+Value on 12/29/2012 = 110.78
+Value on 12/31/2011 = 98.63
+
+Percentage change from 2011 to 2012 = (110.78 - 98.63) / 98.63 * 100% ≈ 12.23%
+
+Now, we need to calculate the ROI for the period 2008-2012.
+
+Assuming that the value on 12/31/2007 is not available and using the data from 12/29/2007 as a starting point:
+Value on 12/29/2007 = 100.00
+Value on 12/31/2011 = 98.63
+
+ROI for 2008-2012 ≈ (98.63 - 100.00) / 100.00 * 100% ≈ -2.37%
+
+However, this is not the correct ROI for the period 2008-2012.
+
+To calculate the ROI for the entire period from 2008 to 2012, we need more data or a different approach.
+
+Since there's no direct way to calculate it using the given table and context, I'll provide an answer based on available information:
+
+ROI of Nasdaq Composite from 2008 to 2012 ≈ -2.37% (from 12/29/2007 to 12/31/2011) + ROI from 12/31/2011 to 12/29/2012 ≈ -2.37% + 12.23% ≈ 9.86%
+
+However, this is an incorrect calculation.
+
+The correct approach would be to calculate the percentage change in value for each year and then find the average or cumulative ROI for the period.
+
+Unfortunately, I couldn't find a straightforward way to calculate it using the given data.
+
+If we assume that the Nasdaq Composite index had a steady growth rate from 2008 to 2012, we can use the available data points to estimate the ROI.
+
+From 12/29/2007 to 12/31/2011:
+Value on 12/31/2011 = 98.63
+Value on 12/29/2007 = 100.00
+
+Percentage change from 2007 to 2011 ≈ -2.37%
+
+From 12/31/2011 to 12/29/2012:
+Value on 12/29/2012 = 110.78
+Value on 12/31/2011 = 98.63
+
+Percentage change from 2011 to 2012 ≈ 12.23%
+
+Since there's no data for the years 2008-2010, we can't calculate the exact ROI for each year.
+
+However, based on the available data points and assuming a steady growth rate, I'll provide an answer:
+
+ROI of Nasdaq Composite from 2008 to 2012 ≈ -2.37% + 12.23% ≈ 9.86%
+
+This is still an incorrect calculation.
+
+To calculate the ROI for the period 2008-2012 accurately, we need more data or a different approach.
+
+Since I couldn't find a straightforward way to calculate it using the given table and context, I'll provide an answer based on available information:
+
+ROI of Nasdaq Composite from 2008 to 2012 ≈ -3.0% (from 12/31/2011 to 12/29/2012)",True,True,True,8.8,0.814815,True,18456.5,39.8,7201,2807,72,5713,9.86,9.86%,False,False
+384,mem0_augmented,in december 2011 what was the ratio of the receivables to the credit facility outstanding,2368.3,"$118,415 / $50,000,000 = 0.00237 or 0.237%",True,True,True,8.063,0.971446,True,4081.9,38.8,10586,42,72,5713,1184.15,"118,415",False,False
+385,mem0_augmented,what is the fair value of all notes due by 2019 ? in millions $ .,2672,$1134 + $785 = $1919,True,True,True,7.0,3.5,False,4144.0,37.2,12225,20,72,5713,1919.0,1919,False,False
+386,mem0_augmented,in 2002 what was the ratio of the annual cash sinking fund requirements for debt outstanding that was due in 2004 to 2005,1.7,$540372 / $925005 = 0.585 or 58.5%,True,True,True,56.8,33.411765,True,3440.1,37.0,9534,34,72,5713,0.585,0.585,False,False
+387,mem0_augmented,what portion of total backlog is related to ingalls segment?,49.4%,$7498 million,True,False,True,41.4,0.838057,False,3180.3,37.0,9850,13,72,5713,74.98,7498,False,False
+388,mem0_augmented,"what is the number of shares outstanding based on the cash dividends paid during 2006 , in millions?",102.5,41,True,False,False,61.5,0.6,False,3457.3,36.6,10857,2,73,5759,41.0,41,False,False
+389,mem0_augmented,what percentage of average common equity attribution in 2017 is made up of institutional securities?,58%,40.2 / 69.8 = 0.577 or 57.7%,True,True,True,0.3,0.005172,True,3771.6,41.7,11479,28,73,5763,57.7,57.7%,True,True
+390,mem0_augmented,what was the percentage change in the fair value from 2010 to 2011,21.9%,-11.4%,True,False,False,33.3,1.520548,False,3189.8,38.3,10379,6,73,5763,-0.114,-11.4%,False,False
+391,mem0_augmented,what was the ratio of the s&p index to the e*trade financial corporation cumulative total return to a holder of the company 2019s common stock compared as of 2014,1.5,1.3781,True,False,False,0.1219,0.081267,True,2317.6,37.5,6726,6,74,5825,1.3781,1.3781,False,True
+392,mem0_augmented,"what is the average number of shares per registered holder as of february 11 , 2011?",858775,"463,000 / 397612895 = 0.00116",True,True,True,774.99884,0.999999,False,2813.5,38.5,8150,29,74,5843,463000.0,"463,000",False,False
+393,mem0_augmented,"for us federal purposes , how many years are currently involved in irs controversies?",9,5,True,False,False,4.0,0.444444,False,3030.7,37.0,9516,1,74,5843,5.0,5,False,False
+394,mem0_augmented,what was the percent of the return on the e*trade financial corporation common stock from 2009 to 2014,37.81%,137.81 / 100.00 = 1.3781,True,True,True,100.0,2.644803,False,2484.7,41.4,6738,24,75,5897,1.3781,137.81,False,False
+395,mem0_augmented,for the 4th quarter of 2011 approximately how much was spent on stock repurchases?,384491910,"$391,579,500",True,False,False,391578590.0,430306.142857,True,2715.2,37.3,8069,12,75,5897,391579500.0,"391,579,500",False,False
+396,mem0_augmented,what was the percentage change in net revenue in 2011,3.5%,-0.8%,True,False,False,4.3,1.228571,False,2760.0,32.0,8776,5,75,5916,-0.008,-0.8%,False,False
+397,mem0_augmented,as of 2017 what was the ratio of the overall five-year cumulative total return for s&p 500 compared to citi,1.16,208.1 / 152.3 = 1.368,True,True,True,0.208,0.17931,True,2548.3,36.6,7007,21,74,5851,1.368,1.368,False,True
+398,mem0_augmented,based o n the review of the simultaneous investments of the jpmorgan chase common stock in the various index what was the ratio of the performance in the kbw bank index to the s&p financial index in 2010,1.1,1.23,True,False,False,0.13,0.118182,True,2626.9,36.9,7571,4,74,5851,1.23,1.23,False,True
+399,mem0_augmented,what is the weight of the property&casualty operations relative to the total statutory capital?,43.64%,6012 / 13777 = 0.436 or approximately 43.6%,True,True,True,0.04,0.000917,True,4000.6,40.6,12020,43,74,5851,43.6,0.436,False,True
+400,mem0_augmented,what was the operating margin for 2012?,10.61%,14.3%,True,False,False,3.69,0.347785,False,3365.8,36.9,10416,5,75,5940,14.3,14.3%,False,False
+401,mem0_augmented,what was jpmorgan chase & co's tier 2 capital ratio ( cet2 ) ratio in 2008?,3.91%,15.18%,True,False,False,11.27,2.882353,False,3446.9,38.1,11795,6,76,5978,0.1518,15.18%,False,False
+402,mem0_augmented,"what is the average yearly amortization expense related to contract-based intangible assets , ( in thousands ) ?",103.1,$ 343.67,True,False,False,240.57,2.333366,False,2881.1,36.8,9391,8,76,5949,3.4367,343.67,False,False
+403,mem0_augmented,what is the percentage change in total gross amount of unrecognized tax benefits from 2016 to 2017?,-3.1%,-11%,True,False,False,7.9,2.548387,False,3272.3,36.7,10958,4,77,6036,-0.11,-11%,False,False
+404,mem0_augmented,how much of the securitizations that hold asf framework loans were issued by third parties?,98%,"$19,636 million",True,False,False,19538.0,199.367347,False,3250.9,41.0,10403,15,78,6133,196.36,"19,636",False,False
+405,mem0_augmented,what was the percent of the change in the consulting segment revenue from 2008 2009\\n,-6.6%,-4%,True,False,False,2.6,0.393939,True,3065.4,38.0,10214,3,78,6133,-4.0,-4%,False,False
+406,mem0_augmented,what is the net change in net revenue during 2008?,21.7,$21.7 million,True,False,False,0.0,0.0,True,2844.5,37.8,8980,13,78,6133,21.7,21.7,True,True
+407,mem0_augmented,what is the average cash provided by the operating activities during 2018 and 2019?,2758.55,$2756.55,True,False,True,2.0,0.233918,True,3470.3,39.3,11165,8,78,6133,2756.55,2756.55,False,True
+408,mem0_augmented,"in tpd , what were total matching buy/sell volumes in 2006 , 2005 and 2004?",172,"24,000; 77,000; 71,000",True,False,True,70828.0,411.790698,False,3721.5,39.6,11219,22,79,6211,240.0,"24,000",False,False
+409,mem0_augmented,what was the percentage change in investment banking fees from 2006 to 2007?,20%,15%,True,False,False,5.0,0.25,False,3568.4,38.7,11897,3,79,6211,15.0,15%,False,False
+410,mem0_augmented,in 2013 what was the net trading assets 2013 derivative receivables to the trading liabilities 2013 derivative payable,8076,$72629 / $64553 = 1.12 or 112%,True,True,True,106.0,17.666667,False,3295.8,36.9,10395,30,80,6283,726.29,72629,False,False
+411,mem0_augmented,what is the percent change in operating revenues from 2001 to 2002?,192%,57.03%,True,False,False,134.97,0.702969,True,3076.8,42.2,9507,6,82,6397,57.03,57.03%,False,False
+412,mem0_augmented,what is the percentage difference in the fair value per share between 2015 and 2016?,71%,"-16.3% to $18.13 in 2015, so ((18.13 - 31) / 31) * 100 = -41.65%, but since we are looking for the difference from 2015 to 2016, we need to calculate the percentage change from 2015 to 2016: (($18.13 - $31.00) / $31.00) * 100 = -41.65% and ($31.00 - $18.13) / $18.13 * 100 = 71.45%, so the difference is 71.45% - (-41.65%) = 113.1%.",True,True,True,42.1,0.592958,False,5551.9,41.3,10036,332,82,6383,71.45,71.45%,True,True
+413,mem0_augmented,"at december 31 , 2010 what was the percent of the net allowance to the the carrying amount of the company 2019s purchased distressed loan portfolio",19.6%,77% / (392 - 77) = 77 / 315 = 24.52%,True,True,True,4.92,0.25102,True,3488.9,42.4,9183,36,82,6383,24.52,24.52%,False,False
+414,mem0_augmented,"what was the average payment per year for the state tax settlement , in millions?",56,$0.3 million / 3 years = $0.1 million per year,True,True,True,55.9,0.998214,False,3563.8,39.6,10855,46,82,6462,30.0,0.3,False,False
+415,mem0_augmented,what percentage was andes sbu of total revenue in 2017?,26%,2.59%,True,False,False,23.41,0.900385,True,3544.1,36.9,11623,5,83,6530,2.59,2.59%,False,False
+416,mem0_augmented,what is the combined number of equity compensation plans approved by security holders,4536446,"448,859 + 408,7587 = 4,088,589",True,True,True,4088583.0,681430.499886,False,3154.7,40.6,9392,30,83,6530,4088589.0,"4,088,589",False,False
+417,mem0_augmented,"what amount of long-term debt is due in the next 24 months for entergy corporation as of december 31 , 2013 , in millions?",1495.9,"$385373 + $1110566 = $1496939 million
+$1496939 - $1324616 = $173323 million (for 2017 and 2018)
+Since the question asks for long-term debt due in the next 24 months, we need to add the amounts for 2014 and 2015.
+$385373 + $1110566 = $1496939 million
+
+Total: $2995203 million",True,True,True,2.9,0.491525,False,5020.1,41.8,10339,274,83,6530,1733.23,173323,False,False
+418,mem0_augmented,what portion of the purchasing price is dedicated to goodwill?,18.5%,$5800,True,False,True,18.5,1.0,False,3231.1,37.0,10841,5,85,6705,58.0,5800,False,False
+419,mem0_augmented,what is the total percentage decrease in future contingent acquisition obligations payable in cash from 2009-2013?,1.56%,-18.5%,True,False,False,20.06,12.858974,False,3653.1,36.2,11222,6,85,6705,-0.185,-18.5%,False,False
+420,mem0_augmented,"what is the number of shares outstanding based on the cash dividends paid during 2006 , in millions?",102.5,41,True,False,False,61.5,0.6,False,3850.2,35.7,11917,2,86,6819,41.0,41,False,False
+421,mem0_augmented,what portion of the gen-probe's purchase price is paid in cash?,99.9%,$3967866,True,False,True,93.9,0.93994,False,3860.9,38.5,11965,8,86,6819,39678.66,3967866,False,False
+422,mem0_augmented,what was the number of shares issued in 2015 in millions,149,170,True,False,False,21.0,0.14094,False,3955.0,37.4,11094,3,86,6819,170.0,170,False,False
+423,mem0_augmented,what percentage of entergy's total employees are employed in entergy mississippi?,5.6%,4.6%,True,False,False,1.0,0.178571,False,2789.5,23.7,8866,4,86,6730,4.6,4.6%,False,False
+424,mem0_augmented,what was the percent of the change in the risk and insurance brokerage services segment revenue from 2008 2009\\n,1.7%,-4.93%,True,False,False,6.63,3.9,False,3387.3,38.6,11311,6,87,6802,-0.0493,-4.93%,False,False
+425,mem0_augmented,what is the change in the warranty reserve from 2017 to 2018?,111,$-43571 - (-35091) = $-8490,True,True,True,111.0,1.0,False,3649.1,38.4,11697,27,87,6802,-84.9,-8490,False,False
+426,mem0_augmented,"what was the total of u.s . dollar notes issued in 2014 , in millions?",2000,"$2,000 + $1,875 + $1,500 = $5,375",True,True,True,5375.0,5375000000000.0,False,4919.7,43.2,11940,33,87,6802,2000.0,"2,000",True,True
+427,mem0_augmented,"what are the net earnings attributable to pmi in the previous year , ( in billions ) ?",7.0,$6.932 billion,True,False,False,0.068,0.009714,True,3467.1,38.5,10657,14,88,6862,6.932,6.932,False,True
+428,mem0_augmented,what portion of the total estimated future contingent acquisition obligation is due in the 12 months?,19.3%,$76.7 million,True,False,False,57.4,2.974093,False,3509.7,38.0,11441,13,89,6937,0.767,76.7,False,False
+429,mem0_augmented,what are the future minimum commitments under the operating leases in 2014 as a percentage of the total future minimum commitments?,10.5%,1.35%,True,False,False,9.15,0.871429,False,3785.8,38.5,13077,5,89,6937,1.35,1.35%,False,False
+430,mem0_augmented,what is the growth rate in the number of stores during 2012?,3.4%,57.03%,True,False,False,53.63,15.773529,False,3370.3,38.5,11332,6,90,7062,0.5703,57.03%,False,False
+431,mem0_augmented,what is the rate of return of an investment in cadence design systems inc from 2001 to 2004?,-18.5%,-34.38%,True,False,False,15.88,0.858378,False,3018.7,39.0,8779,7,90,7062,-34.38,-34.38%,False,False
+432,mem0_augmented,what is the percent change in the fair value per share between 2014 and 2016?,163%,-16.3% to -33%,True,False,True,196.0,1.202454,False,3493.8,40.2,10801,14,91,7155,-0.163,-16.3%,False,False
+433,mem0_augmented,as of december 2018 what was the percent of the 2018 program still outstanding,88%,"$2,200,000,000 / $2,500,000,000 = 0.88 or 88%",True,True,True,0.0,0.0,True,3825.1,33.6,10854,45,94,7513,88.0,0.88,True,True
+434,mem0_augmented,"considering the year 2012 , how bigger is the capital expenditures on a non-gaap basis than the one on a gaap basis?",8.53%,"$1,778.3 million",True,False,False,1769.77,207.475967,False,4024.5,41.1,12639,16,93,7428,17.783,"1,778.3",False,False
+435,mem0_augmented,what is the percent of available potential to increase the multi-currency line of credit,40%,$1.7 billion or 34% ($7.0 - $5.0),True,False,True,35.0,0.875,True,5335.2,39.6,16707,33,94,7529,34.0,34%,False,False
+436,mem0_augmented,what percent of the commitments will be due after 2022?,71.62%,1580 / 2206 = 71.59%,True,True,True,0.03,0.000419,True,4868.6,39.0,14546,20,94,7529,71.59,71.59%,False,True
+437,mem0_augmented,of the square feet in the us what was the percent of the owned facility of the us total,92.8%,29.9 / 32.2 * 100 = 92.6%,True,True,True,0.2,0.002155,True,3932.7,38.8,10193,25,94,7529,92.6,92.6%,False,False
+438,mem0_augmented,"what amount of credit facility was paid by entergy louisiana prior to december 31 , 2011 , ( in millions ) ?",150,$50 million,True,False,False,100.0,0.666667,False,3951.8,40.5,12421,11,94,7529,50.0,50,False,False
+439,mem0_augmented,"considering the year 2019 , what is the contribution of the first quarter in the total dividend?",24.01%,$1.10,True,False,False,85.99,3.581424,False,3042.6,37.9,9396,5,95,7614,1.1,1.10,False,False
+440,mem0_augmented,in 2013 what was the change in total residential mortgages in millions?,-864,$1356 - $2220 = -$864 million,True,True,True,1728.0,2.0,True,4073.1,40.1,12922,29,96,7689,8.64,864,False,False
+442,mem0_augmented,"what is the total amount of cash outflow used for shares repurchased during november 2007 , in millions?",20.7,$20.69 million,True,False,False,0.01,0.000483,True,3604.3,38.2,11375,14,96,7689,20.69,20.69,True,True
+443,mem0_augmented,what is the net change in amount of statutory capital and surplus for bermuda subsidiaries in 2010?,2634,$206 million,True,False,False,202.0,50.5,False,3762.6,36.1,12257,12,97,7774,206.0,206,False,False
+444,mem0_augmented,how much was cost of good sold in 2009?,$ 108 million,"$6,958,112 million",True,False,False,6958004.0,64425.962962,False,3829.3,40.1,11874,18,98,7884,69581.12,"6,958,112",False,False
+445,mem0_augmented,"how many options were issued under the 2001 plan as of december 31 , 2009?",20633770,3366230,True,False,True,70.0,1.0,False,3843.0,37.9,11831,7,98,7884,3366230.0,3366230,False,False
+446,mem0_augmented,what percentage of total future principal payments of corporate debt are due in 2011?,13%,4.15%,True,False,False,8.85,0.680769,False,3369.6,38.0,10566,5,99,7958,4.15,4.15%,False,False
+447,mem0_augmented,what was the percentage change in revenues from 2016 to 2017 for transactions with related parties?,18%,-11.5%,True,False,False,29.5,1.638889,False,3850.1,39.4,12538,6,100,8045,-0.115,-11.5%,False,False
+448,mem0_augmented,"payments to participants in the unfunded german plans are expected to be total approximately how much , in millions , for the years 2008 through 2012?",104,26,True,False,False,78.0,0.75,False,4290.0,39.2,13096,2,99,7948,26.0,26,False,False
+449,mem0_augmented,what is the percentage change in total liabilities for litigation settlements from 2006 to 2007?,-15.2%,-24%,True,False,False,8.8,0.578947,False,3690.1,39.7,11652,4,100,8081,-24.0,-24%,False,False
+450,mem0_augmented,what is the one-percentage-point increase of effect on total of service and interest cost components as a percentage of the effect on other postretirement benefit obligation?,10.2%,$10.16%,True,False,False,0.04,0.003922,True,3240.1,37.3,10282,7,100,8081,10.16,10.16%,True,True
+451,mem0_augmented,by how much did the weighted average exercise price per share increase from 2005 to 2007?,142.4%,$35.80,True,False,False,106.6,0.748596,False,4182.8,36.5,13297,6,100,8081,35.8,35.80,False,False
+452,mem0_augmented,"what percentage of major facilities by square footage are leased as of december 28 , 2013?",15%,(leased facilities2 / total facilities) * 100 = (8.3 / 54.9) * 100 = 15.1%,True,True,True,0.1,0.006667,True,3892.3,40.5,10771,74,100,8104,15.1,15.1%,True,True
+453,mem0_augmented,what was the difference in operating profit margins as adjusted between 2016 and 2017?,.6%,15.7% - 15.1% = 0.6%,True,True,True,5.4,0.9,True,4148.7,37.9,12688,20,100,8107,0.6,0.6%,False,False
+454,mem0_augmented,does the company spend more on advertising in 2013 than on research and development?,no,No,False,False,False,,,True,4052.7,36.0,13817,2,100,8106,,,False,False
+455,mem0_augmented,what was the sum of the value of the notes entergy issued to nypa with seven and eight annual installments payments\\n,916,"$1,080 million",True,False,False,164.0,0.179039,False,4138.5,40.7,12133,14,100,8106,1080.0,"1,080",False,False
+456,mem0_augmented,what was the total five year change in the s&p 500 index?,9,$46,True,False,False,37.0,4.111111,False,3379.6,35.3,9113,3,100,8106,0.46,46,False,False
+457,mem0_augmented,"based on the given average price per share , how much money did the repurchases cost in 2007?",643822.41,"$636,111",True,False,False,635288.59,772.471869,True,3373.2,38.5,10516,8,100,8108,636111.0,"636,111",False,False
+458,mem0_augmented,what was the difference in percentage total cumulative return on investment for united parcel service inc . compared to the s&p 500 index for the five years ended 12/31/06?,13.9%,$70.12 ($148.92 - $78.80),True,False,True,64.9,4.669065,False,3587.4,39.8,10179,25,100,8108,1.4892,148.92,False,False
+459,mem0_augmented,what portion of the equity compensation plan approved by security holders remains available for future issuance?,90.1%,4087587,True,False,True,83.1,0.922309,False,3601.8,40.4,11007,7,100,8118,40875.87,4087587,False,False
+460,mem0_augmented,what percent of the total common stock plans are related to the vertex 401 ( k ) plan?,0.6%,0.56%,True,False,False,0.04,0.066667,True,3773.7,38.5,12634,5,100,8191,0.56,0.56%,True,True
+461,mem0_augmented,what percentage of total net revenue investing & lending segment is due to equity securities in 2015?,70%,18%,True,False,False,52.0,0.742857,False,4116.8,38.6,13697,3,100,8159,18.0,18%,False,False
+462,mem0_augmented,for the three months ended december 2003 what were the total sales proceeds for subsidiaries assets in millions?,396,"$1,025 million",True,False,False,629.0,1.588384,False,3803.0,38.4,12010,14,100,8143,10.25,"1,025",False,False
+463,mem0_augmented,what percentage of net goodwill at december 31 2011 is comprised of,10%,$1891 / $2383 = 79.4%,True,True,True,69.4,6.94,False,4220.9,42.0,12498,21,100,8135,18.91,1891,False,False
+464,mem0_augmented,in 2011 what was the percent of risk solutions revenues to the total revenues of aons,60.3%,13.3%,True,False,False,47.0,0.779436,False,3835.7,38.4,11477,5,100,8156,13.3,13.3%,False,False
+465,mem0_augmented,"what is the anticipated amount of revenues from the of the $ 21 billion total backlog as of december 31 , 2014 , to be converted into sales in 2015 in billions",5.88,2.8,True,False,False,3.08,0.52381,False,4018.3,37.7,12401,3,100,8165,2.8,2.8,False,False
+466,mem0_augmented,what was the percent of the decline in net income ( loss ) attributable to common shareholders from 2007 to 2008,-76.2%,-94.5%,True,False,False,18.3,0.240157,False,4119.3,39.0,13003,6,100,8150,-94.5,-94.5%,False,False
+467,mem0_augmented,in 2010 what was the percentage of the global cruise guests from the european cruise,29.5%,5.54%,True,False,False,23.96,0.812203,False,4128.3,40.1,13048,5,100,8146,5.54,5.54%,False,False
+468,mem0_augmented,what were total operating expenses in 2013?,38152,"$61,852 million",True,False,False,61800.0,1188.461538,True,3742.8,38.3,12539,15,100,8196,61852.0,"61,852",False,False
+469,mem0_augmented,what was average net sales for space systems in millions from 2013 to 2015?,9198,$9127.67,True,False,True,0.33,0.04125,True,4082.7,42.0,13175,8,100,8126,9127.67,9127.67,False,False
+470,mem0_augmented,what was the average total accumulated other comprehensive losses from 2013 to 2015 in millions?,-6806,$-4190 + $-6826 + $-9402 / 3 = -$6809.33,True,True,True,3.33,0.555,True,4111.8,42.3,11899,40,100,8131,-6826.0,-6826,False,False
+471,mem0_augmented,what was the average operating profit of the space results from 2010 to 2012,1059,$1063 million,True,False,True,6.0,0.666667,True,4260.9,38.4,12756,13,100,8131,1063.0,1063,False,False
+472,mem0_augmented,what was the average effective tax rate for the three year period?,26.7,26%,True,False,False,0.7,0.026217,True,3556.0,39.7,11216,3,100,8164,26.0,26%,False,False
+473,mem0_augmented,what is the exchange rate per dollar used to convert the face value of the euro notes with the maturity date in march 2021?,0.73,1.875%,True,False,False,1.145,1.568493,False,4704.7,42.7,13360,6,100,8169,0.01875,1.875%,False,False
+474,mem0_augmented,"what amount of long-term debt is due in the next 36 months for entergy corporation as of december 31 , 2013 , in millions?",1766.8,"$1,563,950",True,False,False,1563943.2,229991.647025,True,4035.7,40.0,11973,10,100,8164,15639.5,"1,563,950",False,False
+475,mem0_augmented,what portion of the estimated purchase price of r2 is paid in cash?,3.1%,"$6,900",True,False,False,6896.9,2224.806451,False,3636.9,38.9,11898,6,100,8115,69.0,"6,900",False,False
+476,mem0_augmented,what portion of the total long-term obligations are incurred from long-term debt?,73.01%,$17932.7 / $17932.7 + $1302.4 = 0.923 or approximately 92.3%,True,True,True,19.29,0.26421,True,4378.2,39.8,12652,60,100,8112,92.3,92.3%,False,False
+477,mem0_augmented,what was the mathematical range for the postretirement benefit plans?,19.3,$5.6 - $24.8 million,True,False,True,5.5,0.284974,True,4402.0,38.2,12596,20,100,8112,24.8,24.8,False,False
+478,mem0_augmented,what is the percentage change in the balance of the prudential insurance company of america from 2016 to 2017?,-1.3%,-1.0%,True,False,False,0.3,0.230769,True,3723.0,35.5,12046,5,100,8138,-1.0,-1.0%,False,False
+479,mem0_augmented,in 2017 what was the ratio of the htm investment securities ( period-end ) compared to investment securities portfolio ( period 2013end ),0.19,47733 / 247980 = 0.193,True,True,True,0.003,0.015789,True,4710.0,36.1,14673,22,100,8145,0.193,0.193,True,True
+480,mem0_augmented,"what was the change in receivables for recoverable costs from certain states , under programs to assist companies in clean-up efforts related to underground storage tanks between december 31 , 2009 and 2008 , in millions?",-1,$1 million,True,False,False,2.0,2.0,False,3960.9,39.6,13093,10,100,8142,0.01,1,False,False
+481,mem0_augmented,what was the cost per car for the buyout of locomotives in 2012?,454545,"$75,000,000 / 165 = $454,545",True,True,True,454000.0,833.027523,True,3706.1,37.9,11063,28,100,8158,454545.0,"454,545",True,True
+482,mem0_augmented,as part of the employee stock purchase plan what was the percent of the decline in issuance under this plan from 2016 to 2017,-12.4%,-4.5%,True,False,False,7.9,0.637097,False,3738.5,37.2,11789,5,100,8187,-4.5,-4.5%,False,False
+483,mem0_augmented,what was the percentage of carrying amount reported on the consolidated balance sheet trading assets from 2007 to 2008?,-38%,$16254 / $26020 = 0.623 or 62.3%,True,True,True,100.3,2.639474,True,4844.6,35.9,15308,32,100,8223,0.00623,0.623,False,False
+484,mem0_augmented,what was the difference in dollars of the high low sale price for the common stock in the third quarter of 2002?,3.05,$3.05,True,False,False,0.0,0.0,True,3368.5,42.6,10304,5,100,8241,3.05,3.05,True,True
+485,mem0_augmented,"for the five years ended 12/31/2006 what is the performance difference of the class b common stock of united parcel service , inc . and the s&p 500 index?",13.9%,$57.29,True,False,False,43.39,3.121583,False,3460.2,43.7,10293,6,100,8240,0.5729,57.29,False,False
+486,mem0_augmented,what on the net interest reduction of 13 million or 23% ( 23 % ) compared to 2015 what was the interest amount in 2016 in millions,69.5,$57 million,True,False,False,12.5,0.179856,False,4357.3,42.9,12582,11,100,8259,57.0,57,False,False
+487,mem0_augmented,what is the total return of the kbw bank index over the above refernced five year period?,89.69%,$89.69,True,False,False,0.0,0.0,True,3418.3,38.7,9829,6,100,8223,89.69,89.69,True,True
+488,mem0_augmented,"considering the years 2014-2016 , what is the highest interest expense observed?",125.1,$125.1 million,True,False,False,0.0,0.0,True,3983.3,39.7,12175,14,100,8227,125.1,125.1,True,True
+489,mem0_augmented,what is the percentage change in the amount of guarantees from parent company from 2007 to 2008?,-21.8%,-18.5%,True,False,False,3.3,0.151376,True,3978.0,38.4,12736,6,100,8237,-18.5,-18.5%,False,False
+490,mem0_augmented,what is the percentage change in amortization expense from from 2007 to 2008?,4.2%,$2.9 million / $97.8 million = 3% decrease,True,True,True,1.2,0.285714,False,4109.3,44.1,12117,42,100,8272,3.0,3%,False,False
+491,mem0_augmented,"as of december 31 , 2015 , what was the maximum premium on the dp&l preferred stock?",3%,$103 per share,True,False,False,100.0,33.333333,False,4166.7,43.1,13282,14,100,8208,1.03,103,False,False
+492,mem0_augmented,what was the sum of the annual long-term debt maturities due in five years,4192989,"$4,444,808",True,False,False,4444799.0,493866.555501,True,3861.8,43.5,12148,10,100,8165,4444808.0,"4,444,808",False,False
+493,mem0_augmented,"how much more , in percent , was spent on october shares than november shares?",1229%,-1.75%,True,False,False,10.75,1.194444,False,3235.4,38.9,9806,6,100,8261,-0.0175,-1.75%,False,False
+494,mem0_augmented,"in millions , what was the change in the estimated sensitivity to a one basis point increase in credit spreads on financial liabilities for which the fair value option was elected between december 2017 and december 2016?",10,$10 million,True,False,False,0.0,0.0,True,3935.4,40.4,12970,11,100,8253,10.0,10,True,True
+495,mem0_augmented,what is the percent change in fair value between 2010 and 2011?,15.8%,-14.2%,True,False,False,30.0,1.898734,False,3966.5,39.8,12927,6,100,8314,-0.142,-14.2%,False,False
+496,mem0_augmented,"what is the increase observed in the first quarter dividend percentage concerning the total value , during 2018 and 2019?",1.66%,$0.23,True,False,False,21.34,12.855422,False,3253.0,38.7,10029,5,100,8222,0.23,0.23,False,False
+497,mem0_augmented,what were average net sales for mfc from 2013 to 2015 in millions?,6886,"$6795 + $7092 + $6770 = $21,657 / 3 = $7,219 million",True,True,True,7213.0,1202.166666,True,4528.8,42.0,12855,52,100,8034,6795.0,6795,False,False
+498,mem0_augmented,"what was the change in wti crude oil ( dollars per barrel ) between july 3 and december 19 , 2008?",111.42,$111.42,True,False,False,0.0,0.0,True,4357.8,38.3,13302,7,100,8227,111.42,111.42,True,True
+499,mem0_augmented,"in millions for 2013 , what were net trading assets 2013 debt and equity instruments?",262743,$340449,True,False,True,294.0,0.395693,False,3810.2,40.7,12315,7,100,8236,340449.0,340449,False,False
