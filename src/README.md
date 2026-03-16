@@ -180,7 +180,6 @@ All scripts produce CSVs with a consistent schema:
          and Memory Augmentation for Financial QA Under SME Compute Constraints},
   author={Liu, Jianan and Yang, Jing and Li, Xianyou and Yan, Weiran and
           Wu, Yichao and Liang, Penghao and Yuan, Mengwei},
-  booktitle={IEEE Conference on Financial AI \& Decision Systems},
-  year={2025}
+  year={2026}
 }
 ```
